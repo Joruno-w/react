@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.layout{
+    display: flex;
+    height: 300px;
+}
+
+.layout .left{
+    order: 1;
+    border: 1px solid #008c8c;
+}
+
+.layout .main{
+    order: 2;
+    flex: 1 1 auto;
+    border: 1px solid;
+}
+
+.layout .right{
+    order: 3;
+    border: 1px solid #008c8c;
+}
