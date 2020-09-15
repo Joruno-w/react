@@ -1,5 +1,11 @@
 import React from 'react';
 import './index.css';
+import PropTypes from 'prop-types';
+import types from "../../../utils/commonTypes";
+Modal.propTypes = {
+    onClose: PropTypes.func.isRequired,
+    children: types.children
+}
 function Modal(props) {
     return (
         <div className="modal" onClick={e=>{

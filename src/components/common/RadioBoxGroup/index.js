@@ -1,6 +1,18 @@
 import React, {Component} from 'react';
+import types from "../../../utils/commonTypes";
+import PropTypes from "prop-types";
 
 class RadioBoxGroup extends Component {
+    static defaultProps = {
+        data: [],
+        value: ''
+    }
+    static propTypes = {
+        children: types.children,
+        data: types.groupData.isRequired,
+        value: PropTypes.string.isRequired,
+        onChange: PropTypes.func
+    }
     handleChange = e=>{
         this.props.onChange && this.props.onChange(e.target.value);
     }
