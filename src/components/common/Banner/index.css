@@ -1,0 +1,11 @@
+.banner-container{
+    position: relative;
+    margin: 100px auto;
+    border: 1px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.banner-container:hover .arrow span{
+    display: block;
+}
