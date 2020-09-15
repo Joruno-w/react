@@ -6,4 +6,8 @@ export default {
         text: PropTypes.string.isRequired
     })),
     chooseData: PropTypes.arrayOf(PropTypes.string),
+    singleData: PropTypes.shape({
+        value: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired
+    })
 }

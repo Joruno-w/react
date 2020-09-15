@@ -1,40 +1,30 @@
 import React, {Component} from 'react';
 import types from "../../../utils/commonTypes";
 import PropTypes from "prop-types";
+import WithDataGroup from "../hoc/WithDataGroup";
+class Radio extends Component{
 
-class RadioBoxGroup extends Component {
-    static defaultProps = {
-        data: [],
-        value: ''
-    }
     static propTypes = {
-        children: types.children,
-        data: types.groupData.isRequired,
         value: PropTypes.string.isRequired,
-        onChange: PropTypes.func
+        onChange: PropTypes.func,
+        info: types.singleData.isRequired
     }
-    handleChange = e=>{
-        this.props.onChange && this.props.onChange(e.target.value);
-    }
-    getRadios = ()=>{
-        return this.props.data.map(it=>(<label key={it.value}>
-            <input
-                type="radio"
-                value={it.value}
-                checked={this.props.value === it.value}
-                onChange={this.handleChange}
-            />
-            {it.text}
-        </label>));
-    }
+
     render() {
-        const bs = this.getRadios();
-        return (
-            <div>
-                {bs}
-            </div>
-        );
+        return(
+            <label>
+                <input
+                    type="radio"
+                    value={this.props.info.value}
+                    checked={this.props.value === this.props.info.value}
+                    onChange={()=>{
+                        this.props.onChange && this.props.onChange(this.props.info.value);
+                    }}
+                />
+                {this.props.info.text}
+            </label>
+        )
     }
 }
 
-export default RadioBoxGroup;
+export default WithDataGroup(Radio);
