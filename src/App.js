@@ -1,28 +1,47 @@
 import React, {Component} from 'react';
-import {getAllStudent} from "./services/getAllStudent";
-import SelectGroup from "./components/common/SelectGroup";
+import Comp,{A} from "./components/Comp";
 class App extends Component {
-    state = {
-        data: [],
-        value: '',
-    }
-
-    async componentDidMount() {
-        const resp = await getAllStudent();
-        this.setState({
-            data: resp.map(it=>({value: it.id.toString(), text:it.name}))
-        });
-    }
-
     render() {
         return (
-            <SelectGroup
-                {...this.state}
-                onChange={value=>{
-                    this.setState({
-                        value
-                    });
+            <Comp
+                a="asrgawrgae"
+                b={[1,2,3]}
+                c={true}
+                d={()=>console.log('a')}
+                e={123}
+                f={{
+                    a:1,
+                    b:2
                 }}
+                g={Symbol("wsl")}
+                h={<h1>你好啊</h1>}
+                i={<h1>你好啊</h1>}
+                j={A}
+                k={new A()}
+                l='男'
+                m={'wsl'||123}
+                n={[1,2,3]}
+                o={{
+                    a: 1,
+                    b: 2
+                }}
+                p={{
+                    name: 'wsl',
+                    age: 20,
+                    address:{
+                        province: 'jiangxi',
+                        city: 'nanchang',
+                    }
+                }}
+                q={{
+                    name: 'wsl',
+                    age: 20,
+                    address:{
+                        province: 'jiangxi',
+                        city: 'nanchang',
+                    }
+                }}
+                r={99}
             />
         );
     }
