@@ -1,9 +1,26 @@
 import React, {Component} from 'react';
-import Test from "./components/common/Banner/Test";
+
+function A(props,ref) {
+    return (
+        <h1 ref={ref}>你好啊！</h1>
+    )
+}
+
+const NewA = React.forwardRef(A);
+
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.hRef = React.createRef();
+    }
+
+    componentDidMount() {
+        console.log(this.hRef);
+    }
+
     render() {
         return (
-            <Test />
+            <NewA ref={this.hRef}/>
         );
     }
 }
