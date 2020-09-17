@@ -1,7 +1,9 @@
-.finish{
-    color: #f40;
-}
-
-li{
-    color: #008c8c;
+.box{
+    position: relative;
+    border: 1px solid;
+    background-color: #008c8c;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
 }
