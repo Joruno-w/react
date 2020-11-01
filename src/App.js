@@ -1,28 +1,27 @@
-import React, {useCallback, useState} from 'react';
-class Test extends React.PureComponent{
-    render() {
-        console.log("Test render");
-        return(
-            <div>
-                <div>{this.props.txt}</div>
-                <button onClick={this.props.onClick}>change</button>
-            </div>
-        )
-    }
+import React, {useMemo, useState} from 'react';
+function Item(props){
+    console.log('item render', props.value);
+    return <li>{props.value}</li>
 }
+
 function App() {
-    console.log("App render");
-    const [txt,setTxt] = useState(123);
+    const [range] = useState({min: 1,max: 1000});
     const [n,setN] = useState(0);
-    const handleClick = useCallback(()=>{
-        setTxt(txt+1)
-    },[txt]);
+    const list = useMemo(()=>{
+        const list = [];
+        for (let i = range.min;i <= range.max;i ++){
+            list.push(<Item value={i} key={i}/>);
+        }
+        return list;
+    },[range.min,range.max]);
     return (
         <div>
-            <Test txt={txt} onClick={handleClick}/>
-            <input type="number" value={n} onChange={e=>{
-                setN(parseInt(e.target.value));
-            }}/>
+            <ul>
+                {list}
+                <input type="number" value={n} onChange={e=>{
+                    setN(parseInt(e.target.value));
+                }}/>
+            </ul>
         </div>
     );
 }
