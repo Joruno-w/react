@@ -1,17 +1,19 @@
-import React, {useLayoutEffect, useRef, useState} from 'react';
+import React, {useDebugValue, useEffect, useState} from 'react';
+
+function useTest() {
+    const [students] = useState([]);
+    useDebugValue("学生集合");
+    return students;
+}
 
 function App() {
-    const [,forceUpdate] = useState({});
-    const h1Ref = useRef();
-    useLayoutEffect(()=>{
-        h1Ref.current.innerText = Math.random();
-    });
+    useState('123');
+    useEffect(()=>{});
+    useState("abc");
+    useTest();
     return (
         <div>
-            <h1 ref={h1Ref}>0</h1>
-            <button onClick={()=>{
-                forceUpdate({});
-            }}>click</button>
+
         </div>
     );
 }

@@ -1,6 +1,5 @@
-# LayoutEffect Hook
+# DebugValue Hook
 
-useEffect：浏览器渲染完成后，用户看到新的渲染结果之后
-useLayoutEffectHook：完成了DOM改动，但还没有呈现给用户
+useDebugValue：用于将自定义Hook的关联数据显示到调试栏
 
-应该尽量使用useEffect，因为它不会导致渲染阻塞，如果出现了问题，再考虑使用useLayoutEffectHook
+如果创建的自定义Hook通用性比较高，可以选择使用useDebugValue方便调试
