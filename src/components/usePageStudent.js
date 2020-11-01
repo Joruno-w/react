@@ -11,7 +11,6 @@ function usePageStudent() {
             setResp(result);
         })();
     },[]);
-    return resp;
 }
 
 export default usePageStudent;
