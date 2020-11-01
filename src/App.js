@@ -1,45 +1,28 @@
-import React, {useEffect, useRef, useState} from 'react';
-function App() {
-    const [n,setN] = useState(10);
-    const nRef = useRef(n); //{current: 10}
-    useEffect(()=>{
-        const timer = setInterval(()=>{
-            nRef.current--;
-            setN(nRef.current);
-            if (nRef.current === 0){
-                clearInterval(timer);
+import React, {useImperativeHandle, useRef} from 'react';
+
+function Test(props,ref) {
+    useImperativeHandle(ref,()=>{
+        return{
+            method(){
+                console.log("method called");
             }
-        },1000);
-        return ()=>{
-            clearTimeout(timer);
         }
     },[]);
+    return <h1>Test component</h1>
+}
+
+const TestWrapper = React.forwardRef(Test);
+
+function App() {
+    const Ref = useRef();
     return (
         <div>
-            {n}
+            <TestWrapper ref={Ref}/>
+            <button onClick={()=>{
+                Ref.current.method();
+            }}>click</button>
         </div>
     );
 }
 
-// function App() {
-//     const [n, setN] = useState(10);
-//     const timer = useRef();
-//     useEffect(() => {
-//         if (n === 0){
-//             return;
-//         }
-//         timer.current = setTimeout(()=>{
-//             console.log(n);
-//             setN(n-1);
-//         },1000);
-//         return ()=>{
-//             clearTimeout(timer.current);
-//         }
-//     }, [n]);
-//     return(
-//         <div>
-//             {n}
-//         </div>
-//     )
-// }
 export default App;
