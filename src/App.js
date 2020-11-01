@@ -1,41 +1,16 @@
-import React,{useState} from 'react';
+import React,{useContext} from 'react';
+const ctx = React.createContext();
 
-function useReducer(reducer,initialState,func){
-    const [state,setState] = useState(func? func(initialState) : initialState);
-    function dispatch(action){
-        const newState = reducer(state,action);
-        setState(newState);
-    }
-    return [state,dispatch];
-}
-
-
-function reducer(state, action) {
-    switch (action.type) {
-        case 'increase':
-            return state + 1;
-        case 'decrease':
-            return state - 1;
-        default:
-            return state;
-    }
+function Test() {
+    const value = useContext(ctx);
+    return <h1>上下文中的数据为: {value}</h1>
 }
 
 function App() {
-    const [state, dispatch] = useReducer(reducer, 10, (arg)=>{
-        console.log(arg);
-        return 100;
-    });
     return (
-        <div>
-            <button onClick={()=>{
-                dispatch({type: 'decrease'});
-            }}>-</button>
-            <span>{state}</span>
-            <button onClick={()=>{
-                dispatch({type: 'increase'});
-            }}>+</button>
-        </div>
+        <ctx.Provider value="123">
+            <Test/>
+        </ctx.Provider>
     );
 }
 
