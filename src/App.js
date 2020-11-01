@@ -1,25 +1,16 @@
-import React, {useImperativeHandle, useRef} from 'react';
-
-function Test(props,ref) {
-    useImperativeHandle(ref,()=>{
-        return{
-            method(){
-                console.log("method called");
-            }
-        }
-    },[]);
-    return <h1>Test component</h1>
-}
-
-const TestWrapper = React.forwardRef(Test);
+import React, {useLayoutEffect, useRef, useState} from 'react';
 
 function App() {
-    const Ref = useRef();
+    const [,forceUpdate] = useState({});
+    const h1Ref = useRef();
+    useLayoutEffect(()=>{
+        h1Ref.current.innerText = Math.random();
+    });
     return (
         <div>
-            <TestWrapper ref={Ref}/>
+            <h1 ref={h1Ref}>0</h1>
             <button onClick={()=>{
-                Ref.current.method();
+                forceUpdate({});
             }}>click</button>
         </div>
     );
