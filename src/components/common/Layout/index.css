@@ -1,24 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
-.layout{
-    display: flex;
-    height: 300px;
+.container{
+    min-height: 100vh;
 }
-
-.layout .left{
-    order: 1;
-    border: 1px solid #008c8c;
-}
-
-.layout .main{
-    order: 2;
-    flex: 1 1 auto;
-    border: 1px solid;
+header.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 60px;
+    background-color: #000;
 }
 
-.layout .right{
-    order: 3;
-    border: 1px solid #008c8c;
+.middle{
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+}
+
+.middle .aside{
+    width: 200px;
+    background-color: #008c8c;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.middle .main{
+    position: absolute;
+    left: 200px;
+    padding: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }

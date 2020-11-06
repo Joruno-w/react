@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-
+import './index.css';
 class Layout extends Component {
     static propTypes = {
         header: PropTypes.element,
@@ -9,7 +9,7 @@ class Layout extends Component {
     };
     render() {
         return (
-            <div>
+            <div className="container">
                 <header className="header">
                     {this.props.header}
                 </header>

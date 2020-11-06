@@ -1,24 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, Route,Link} from 'react-router-dom';
-function A() {
-    return <div>
-        组件A
-    </div>
-}
-function B() {
-    return <div>
-        组件B
-    </div>
-}
-function App() {
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import Login from "./components/Login";
+import Admin from "./components/Admin";
+
+function App(props) {
     return (
         <Router>
-            <div>
-                <Link to='/a'>a</Link>
-                <Link to='/b'>b</Link>
-            </div>
-            <Route path='/a' component={A} />
-            <Route path='/b' component={B} />
+            <Switch>
+                <Route path="/login" component={Login} />
+                <Route path="/" component={Admin} />
+            </Switch>
         </Router>
     );
 }
