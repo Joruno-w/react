@@ -1,37 +1,39 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, NavLink, Redirect,Switch} from "react-router-dom";
-import './App.css';
-function A() {
-    return <h1>组件A</h1>
-}
+import {BrowserRouter as Router,Route,Link} from "react-router-dom";
 
-function B() {
-    return <h1>组件B</h1>
-}
-
-function NavBar() {
-    return(
+function User({match}) {
+    console.log(match);
+    return <div>
+        <h1>User组件</h1>
         <div>
-            <NavLink to='/a' style={{marginRight: 10}} innerRef={node=>{
-                console.log(node);
-            }} activeClassName="selected" activeStyle={{
-                background: '#ccc'
-            }}>去A页</NavLink>
-            <NavLink to='/b' style={{marginRight: 10}}>去B页</NavLink>
-            <NavLink to='/abc'>去其他页</NavLink>
+            <Link to={`${match.url}/info`} style={{marginRight: 10}}>info</Link>
+            <Link to={`${match.url}/pay`}>pay</Link>
         </div>
-    )
+        <div style={{
+            width: 400,
+            height: 400,
+            margin: '50px auto',
+            background: 'lightblue',
+            border: '1px solid'
+        }}>
+            <Route path={`${match.path}/info`} component={UserInfo} />
+            <Route path={`${match.path}/pay`} component={UserPay}/>
+        </div>
+    </div>
 }
 
-function App(props) {
+function UserInfo() {
+    return <h1>用户信息</h1>
+}
+
+function UserPay() {
+    return <h1>用户充值</h1>
+}
+
+function App() {
     return (
         <Router>
-            <NavBar/>
-            <Switch>
-                <Route path='/a' component={A}/>
-                <Route path='/b' component={B}/>
-                <Redirect to='/a' from="/abc" />
-            </Switch>
+            <Route path='/user' component={User}/>
         </Router>
     );
 }
