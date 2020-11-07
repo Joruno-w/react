@@ -1,39 +1,44 @@
 import React from 'react';
-import {BrowserRouter as Router,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Route,Switch,Link} from "react-router-dom";
+import logininfo from "./utils/logininfo";
+import ProtectedRoute from "./components/ProtectedRoute";
+function Home() {
+    return <h1>首页</h1>
+}
 
-function User({match}) {
-    console.log(match);
+function Login(props) {
     return <div>
-        <h1>User组件</h1>
-        <div>
-            <Link to={`${match.url}/info`} style={{marginRight: 10}}>info</Link>
-            <Link to={`${match.url}/pay`}>pay</Link>
-        </div>
-        <div style={{
-            width: 400,
-            height: 400,
-            margin: '50px auto',
-            background: 'lightblue',
-            border: '1px solid'
-        }}>
-            <Route path={`${match.path}/info`} component={UserInfo} />
-            <Route path={`${match.path}/pay`} component={UserPay}/>
-        </div>
+        <h1>登录页</h1>
+        <button onClick={()=>{
+            logininfo.login();
+            if (props.location.state){
+                props.history.push(props.location.state);
+            }else{
+                props.history.push('/');
+            }
+        }}>登录</button>
     </div>
 }
 
-function UserInfo() {
-    return <h1>用户信息</h1>
+function Personal() {
+    return <h1>个人中心</h1>
 }
 
-function UserPay() {
-    return <h1>用户充值</h1>
-}
-
-function App() {
+function App(props) {
     return (
         <Router>
-            <Route path='/user' component={User}/>
+            <div>
+                <Link to='/'>首页</Link><br/>
+                <Link to='/login'>登录页</Link><br/>
+                <Link to='/personal'>个人中心</Link><br/>
+            </div>
+            <div>
+                <Switch>
+                    <Route path='/login' component={Login} />
+                    <ProtectedRoute path='/personal' component={Personal}/>
+                    <Route path='/' component={Home}/>
+                </Switch>
+            </div>
         </Router>
     );
 }
