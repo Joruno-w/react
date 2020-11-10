@@ -4,3 +4,8 @@ import App from "./App";
 
 
 ReactDOM.render(<App/>,document.getElementById('root'));
+
+
+window.onpopstate = function () {
+    console.log('123');
+};
