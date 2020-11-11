@@ -1,10 +1,10 @@
 import React from 'react';
-import './react-router/pathToRegexp';
+import {BrowserRouter} from "./react-router-dom";
 
 function App(props) {
-    return (
-        <div></div>
-    );
+    return <BrowserRouter basename="/news">
+        wsl
+    </BrowserRouter>
 }
 
 export default App;
