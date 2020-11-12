@@ -1,10 +1,24 @@
 import React from 'react';
-import {BrowserRouter as Router,Route,Switch} from "./react-router-dom";
+import {BrowserRouter as Router, Route, Switch, withRouter} from "./react-router-dom";
 
+function Comp(props) {
+    return <div>
+        <button onClick={() => {
+            props.history.push('/page2');
+        }}>page2
+        </button>
+    </div>
+}
+
+const CompWrapper = withRouter(Comp);
 
 function Page1() {
-    return <h1>Page1</h1>
+    return <div>
+        <h1>Page1</h1>
+        <CompWrapper/>
+    </div>
 }
+
 function Page2() {
     return <h1>Page2</h1>
 }
