@@ -1,30 +1,20 @@
 import React from 'react';
-import {BrowserRouter as Router,Route} from "./react-router-dom";
+import {BrowserRouter as Router,Route,Switch} from "./react-router-dom";
 
-function A() {
-    return <h1>页面A</h1>
+
+function Page1() {
+    return <h1>Page1</h1>
 }
-
-function B() {
-    return <h1>页面B</h1>
-}
-
-function Change({history}) {
-    return <div>
-        <button onClick={()=>{
-            history.push('/a');
-        }}>去A页</button>
-        <button onClick={()=>{
-            history.push('/b');
-        }}>去B页</button>
-    </div>
+function Page2() {
+    return <h1>Page2</h1>
 }
 
 function App(props) {
     return <Router>
-        <Route path='/a' component={A}/>
-        <Route path='/b' component={B}/>
-        <Route component={Change}/>
+        <Switch>
+            <Route path='/page1' component={Page1}/>
+            <Route path='/page2' component={Page2}/>
+        </Switch>
     </Router>
 }
 
