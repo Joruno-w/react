@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # react
-本人react的学习笔记，笔记汇总在master分支上，需要的请根据目录跳转查看对应章节的内容，其他分支均为练习代码
-=======
+本人react的学习笔记，需要的请根据目录跳转查看对应章节的内容，其他分支均为练习代码，所以看主分支就好:blush:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,4 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
->>>>>>> 6-5.手写createStore
+
