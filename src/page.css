@@ -1,0 +1,38 @@
+.header{
+    background-color: lightblue;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header a{
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header a.active{
+    color: #f40;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+.home{
+    background-color: lightgreen;
+}
+
+.news{
+    background-color: lightpink;
+}
+
+.personal{
+    background-color: lightcoral;
+}

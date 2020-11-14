@@ -1,0 +1,26 @@
+.login-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login div{
+    margin: 10px 0;
+}
+input[type=password]{
+    margin-left: 16px;
+}
+
+.login button{
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #008c8c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+

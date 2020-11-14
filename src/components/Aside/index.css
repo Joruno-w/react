@@ -1,0 +1,19 @@
+ul{
+    margin-top: 70px;
+}
+ul li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+ul li:hover{
+    background-color: #fff;
+    color: #008c8c;
+    cursor: pointer;
+}
+
+ul li a{
+    color: inherit;
+}
