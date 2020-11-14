@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #008c8c;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+    text-align: center;
+    display: block;
+    font-size: 1.3em;
+}
+
+.nav a.active{
+    color: #f40;
+}
