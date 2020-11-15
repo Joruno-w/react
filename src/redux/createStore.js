@@ -1,13 +1,5 @@
-function getRandomStr(length){
-    return Math.random().toString(36).substr(2,length);
-}
-
-function isPlainObj(action) {
-    if (typeof action !== "object"){
-        throw new TypeError("action must be a object");
-    }
-    return Object.prototype.isPrototypeOf(action);
-}
+import isPlainObj from "./utils/isPlainObj";
+import actionTypes from "./utils/actionTypes";
 
 export default function createStore(reducer,defaultState){
     let currentState = defaultState,
@@ -45,7 +37,7 @@ export default function createStore(reducer,defaultState){
 
 
     dispatch({
-        type: `@@redux/INIT.${getRandomStr(4).split("").join(".")}`
+        type: actionTypes.INIT()
     });
 
     return{
