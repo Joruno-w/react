@@ -18,7 +18,7 @@ export default function createStore(reducer,defaultState){
         if (!isPlainObj(action)){
             throw new TypeError("action must be a plain object");
         }
-        if (!"type" in action) {
+        if (action.type === undefined) {
             throw new Error("action must have a type property");
         }
         currentState = currentReducer(currentState,action);
@@ -29,7 +29,11 @@ export default function createStore(reducer,defaultState){
 
     function subscribe(listener) {
         listeners.push(listener);
+        const isRemove = !listeners.includes(listener);
         return ()=>{
+            if (isRemove){
+                return;
+            }
             const index = listeners.indexOf(listener);
             listeners.splice(index,1);
         }
