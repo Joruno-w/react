@@ -1,7 +1,14 @@
 import isPlainObj from "./utils/isPlainObj";
 import actionTypes from "./utils/actionTypes";
 
-export default function createStore(reducer,defaultState){
+export default function createStore(reducer,defaultState,enhancer){
+    if (typeof defaultState === "function"){
+        enhancer = defaultState;
+        defaultState = undefined;
+    }
+    if (typeof enhancer === "function"){
+        return enhancer(createStore)(reducer,defaultState);
+    }
     let currentState = defaultState,
         currentReducer = reducer;
     const listeners = [];

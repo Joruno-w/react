@@ -1,4 +1,4 @@
-import {createStore,bindActionCreators,applyMiddleware} from "redux";
+import {createStore,bindActionCreators,applyMiddleware} from "../redux";
 import reducer from './reducer';
 import * as usersAction from './action/usersAction';
 import {v4 as uuid} from "uuid";
