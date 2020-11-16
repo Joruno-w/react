@@ -1,11 +1,11 @@
 import compose from './compose';
 export default (...middlewares)=>createStore=>(reducer,defaultState)=>{
     const store = createStore(reducer,defaultState);
+    let dispatch = ()=>new Error("don't invoke dispatch now");
     const simpleStore = {
         getState: store.getState,
-        dispatch: store.dispatch
+        dispatch: (...args)=>dispatch(...args)
     };
-    let dispatch = ()=>new Error("don't invoke dispatch now");
     const dispatchCreators = middlewares.map(mid=>mid(simpleStore));
     dispatch = compose(...dispatchCreators)(store.dispatch);
     return{
