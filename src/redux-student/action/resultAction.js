@@ -21,12 +21,7 @@ export function setLoading(isLoading) {
 }
 
 
-export function fetchStudentsAndTotal() {
-    return async (dispatch,getState,extra)=>{
-        const condition = getState().search;
-        dispatch(setLoading(true));
-        const resp = await getStudentBySearch(condition);
-        dispatch(setStudentAndTotal(resp.datas,resp.cont));
-        dispatch(setLoading(false));
-    }
+export async function fetchStudentsAndTotal(condition) {
+    const resp = await getStudentBySearch(condition);
+    return setStudentAndTotal(resp.datas,resp.cont);
 }
