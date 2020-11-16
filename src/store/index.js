@@ -2,25 +2,17 @@ import {createStore,bindActionCreators,applyMiddleware} from "../redux";
 import reducer from './reducer';
 import * as usersAction from './action/usersAction';
 import {v4 as uuid} from "uuid";
+import {createLogger} from 'redux-logger';
 
-const logger1 = store=>next=>action=>{
-    console.log("旧状态:",store.getState());
-    next(action);
-    console.log("新状态:",store.getState());
-}
-
-const logger2 = store=>next=>action=>{
-    console.log("旧状态:",store.getState());
-    next(action);
-    console.log("新状态:",store.getState());
-}
-
-
-// const store = createStore(reducer,applyMiddleware(logger1,logger2));
-const store = applyMiddleware(logger1,logger2)(createStore)(reducer);
-store.subscribe(()=>{
-    console.log(store.getState());
+const logger = createLogger({
+    duration: true,
+    collapsed: true,
+    timestamp: false,
+    level: "log",
 });
+
+// const store = createStore(reducer,applyMiddleware(logger));
+const store = applyMiddleware(logger)(createStore)(reducer);
 const actionCreatorsMapObject = bindActionCreators(usersAction,store.dispatch);
 actionCreatorsMapObject.addUserCreator({
     id: uuid(),
