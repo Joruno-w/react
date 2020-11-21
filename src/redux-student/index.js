@@ -4,6 +4,7 @@ import logger from 'redux-logger';
 import * as actionTypes from "./action/counter";
 import createSagaMiddleware from 'redux-saga';
 import sagaTask from './saga';
+import {fetchStudentsAndTotal} from "./action/student/resultAction";
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducer,applyMiddleware(sagaMiddleware,logger));
 sagaMiddleware.run(sagaTask);
@@ -18,6 +19,9 @@ window.asyncDecrease = ()=>{
 }
 window.asyncIncrease = ()=>{
     store.dispatch(actionTypes.asyncIncrease());
+}
+window.fetchStudent = ()=>{
+    store.dispatch(fetchStudentsAndTotal());
 }
 
 export default store;
