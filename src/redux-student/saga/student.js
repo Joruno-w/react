@@ -1,28 +1,19 @@
 import * as actionTypes from "../action/student/resultAction";
-import {put,call,select,takeEvery,cps} from 'redux-saga/effects';
+import {put,call,select,takeEvery,take,cps,fork} from 'redux-saga/effects';
 import {getStudentBySearch} from "../../services/getStudent";
 
-function mockStudents(condition,callback){
-    console.log("mockStudent",condition);
-    setTimeout(()=> {
-        if (Math.random()> .5){
-            callback(null,{
-                cont: 78,
-                data: [
-                    {id:1,name:'abc'},
-                    {id:2,name:'bcd'},
-                ]
-            })
-        }else{
-            callback(new Error("error"),null);
-        }
-    },1000);
-}
+// function* takeEvery(actionType,saga) {
+//     return fork(function *(){
+//         while (true){
+//             yield take(actionType);
+//             yield fork(saga);
+//         }
+//     });
+// }
 
 function* fetchStudent(){
     yield put(actionTypes.setLoading(true));
     const condition = yield select(state => state.search);
-    const result = yield cps(mockStudents,condition);
     console.log(result);
     const resp = yield call(getStudentBySearch,condition);
     yield put(actionTypes.setStudentAndTotal(resp.datas,resp.cont));
