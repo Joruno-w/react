@@ -1,9 +1,8 @@
 import {getAllStudent} from "../../services/getStudent";
-
-export const ADD_USER = Symbol('add-user');
-export const DELETE_USER = Symbol('delete-user');
-export const UPDATE_USER = Symbol('update-user');
-export const SET_USER = Symbol('set-user');
+export const ADD_USER = Symbol('add-student');
+export const DELETE_USER = Symbol('delete-student');
+export const UPDATE_USER = Symbol('update-student');
+export const SET_USER = Symbol('set-student');
 export const SET_LOADING = Symbol("set-loading");
 
 export const addUserCreator = user=>({

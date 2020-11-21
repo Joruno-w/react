@@ -1,4 +1,4 @@
-import * as resultActions from '../action/resultAction';
+import * as resultActions from '../../action/student/resultAction';
 const initialState = {
     data:[],
     total: 0,

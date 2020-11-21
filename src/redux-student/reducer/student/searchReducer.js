@@ -1,4 +1,4 @@
-import * as seachActions from '../action/searchAction';
+import * as seachActions from '../../action/student/searchAction';
 const initialState = {
     key: '',
     sex: -1,

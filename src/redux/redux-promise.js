@@ -5,7 +5,6 @@ function isFSA(action){
     return isPlainObject(action) && isString(action.type) && Object.keys(action).every(ac=>["type","payload","error","meta"].includes(ac));
 }
 
-
 export default ({dispatch})=>next=>action=>{
     if (!isFSA(action)){
         return isPromise(action) ? action.then(dispatch) : next(action);
