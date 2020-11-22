@@ -14,7 +14,6 @@ import {getStudentBySearch} from "../../services/getStudent";
 function* fetchStudent(){
     yield put(actionTypes.setLoading(true));
     const condition = yield select(state => state.search);
-    console.log(result);
     const resp = yield call(getStudentBySearch,condition);
     yield put(actionTypes.setStudentAndTotal(resp.datas,resp.cont));
     yield put(actionTypes.setLoading(false));
