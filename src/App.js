@@ -1,5 +1,5 @@
 import React from 'react';
-import './store';
+import './redux-student';
 function App(props) {
     return (
         <div></div>

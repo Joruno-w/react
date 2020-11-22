@@ -2,7 +2,7 @@ import {createStore,applyMiddleware} from "redux";
 import reducer from './reducer';
 import logger from 'redux-logger';
 import * as actionTypes from "./action/counter";
-import createSagaMiddleware from '../redux/saga';
+import createSagaMiddleware from 'redux-saga';
 import sagaTask from './saga';
 import {fetchStudentsAndTotal} from "./action/student/resultAction";
 const sagaMiddleware = createSagaMiddleware();
@@ -22,6 +22,9 @@ window.asyncIncrease = ()=>{
 }
 window.fetchStudent = ()=>{
     store.dispatch(fetchStudentsAndTotal());
+}
+window.add = n=>{
+    store.dispatch(actionTypes.add(n));
 }
 
 export default store;

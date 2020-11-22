@@ -1,11 +1,7 @@
-import * as actionTypes from '../../action/counter';
-export default function (state=10,{type}){
-    switch (type){
-        case actionTypes.INCREASE:
-            return state + 1;
-        case actionTypes.DECREASE:
-            return state - 1;
-        default:
-            return state;
-    }
-}
+import {handleActions} from 'redux-actions';
+import {increase,decrease,add} from '../../action/counter';
+export default handleActions({
+    [increase]: state => state + 1,
+    [decrease]: state => state - 1,
+    [add]: (state, {payload}) => state + payload
+},10);

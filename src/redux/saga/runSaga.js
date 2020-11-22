@@ -9,7 +9,7 @@ export default function (env,generatorFunc,...args) {
     if (isGenerator(iterator)) {
         return proc(env,iterator);
     }else{
-        console.log("一个普通函数")
+        console.log("一个普通函数");
     }
 }
 
