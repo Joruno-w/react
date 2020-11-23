@@ -7,11 +7,10 @@ class StudentSearchBar extends Component {
             key: '',
             sex: -1,
         };
-        this.state = Object.assign({},def,props.defaultValue);
+        this.state = Object.assign({},def,this.props.defaultValue);
     }
 
     handleRadioChange = e=>{
-        console.log(e.target.value);
         this.setState({
             sex: +e.target.value
         });
