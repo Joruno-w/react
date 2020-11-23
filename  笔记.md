@@ -1,28 +1,25 @@
-# redux-actions
+# react-redux
 
-> 该库用于简化action-types、action-creator以及reducer
-> 官网文档：https://redux-actions.js.org/
+- React: 组件化的UI界面处理方案
+- React-Router: 根据地址匹配路由，最终渲染不同的组件
+- Redux：处理数据以及数据变化的方案（主要用于处理共享数据）
 
-## createAction(s)
+> 如果一个组件，仅用于渲染一个UI界面，而没有状态（通常是一个函数组件），该组件叫做**展示组件**
+> 如果一个组件，仅用于提供数据，没有任何属于自己的UI界面，则该组件叫做**容器组件**，容器组件纯粹是为了给其他组件提供数据。
 
-### createAction
 
-该函数用于帮助你创建一个action创建函数（action creator）
+react-redux库：链接redux和react
 
-### createActions
-
-该函数用于帮助你创建多个action创建函数
-
-## handleAction(s)
-
-### handleAction
-
-简化针对单个action类型的reducer处理，当它匹配到对应的action类型后，会执行对应的函数
-
-### handleActions
-
-简化针对多个action类型的reducre处理
-
-## combineActions
-
-配合createActions和handleActions两个函数，用于处理多个action-type对应同一个reducer处理函数。
+- Provider组件：没有任何UI界面，该组件的作用，是将redux的仓库放到一个上下文中。
+- connect：高阶组件，用于链接仓库和组件的
+  - 细节一：如果对返回的容器组件加上额外的属性，则这些属性会直接传递到展示组件
+  - 第一个参数：mapStateToProps: 
+    - 参数1：整个仓库的状态
+    - 参数2：使用者传递的属性对象
+  - 第二个参数：
+    - 情况1：传递一个函数 mapDispatchToProps
+      - 参数1：dispatch函数
+      - 参数2：使用者传递的属性对象
+      - 函数返回的对象会作为属性传递到展示组件中（作为事件处理函数存在）
+    - 情况2：传递一个对象，对象的每个属性是一个action创建函数，当事件触发时，会自动的dispatch函数返回的action
+  - 细节二：如果不传递第二个参数，通过connect连接的组件，会自动得到一个属性：dispatch，使得组件有能力自行触发action，但是，不推荐这样做。

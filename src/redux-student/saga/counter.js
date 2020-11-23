@@ -1,12 +1,14 @@
-import {takeEvery} from 'redux-saga/effects';
+import {takeEvery,delay,put} from 'redux-saga/effects';
 import * as actionTypes from "../action/counter";
 
 function *asyncIncrease() {
-    console.log('运行了asyncIncrease');
+    yield delay(1000);
+    yield put(actionTypes.increase());
 }
 
 function *asyncDecrease() {
-    console.log('运行了asyncDecrease');
+    yield delay(1000);
+    yield put(actionTypes.decrease());
 }
 
 

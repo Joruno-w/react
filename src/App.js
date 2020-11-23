@@ -1,8 +1,12 @@
 import React from 'react';
-import './redux-student';
-function App(props) {
+import store from "./redux-student";
+import {Provider} from 'react-redux';
+import Counter from "./Counter";
+function App() {
     return (
-        <div></div>
+        <Provider store={store}>
+            <Counter/>
+        </Provider>
     );
 }
 

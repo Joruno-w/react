@@ -1,5 +1,5 @@
 import * as actionTypes from "../action/student/resultAction";
-import {put,call,select,takeEvery,take,cps,fork} from 'redux-saga/effects';
+import {put,call,select,takeEvery} from 'redux-saga/effects';
 import {getStudentBySearch} from "../../services/getStudent";
 
 // function* takeEvery(actionType,saga) {
