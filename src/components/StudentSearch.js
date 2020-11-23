@@ -6,7 +6,7 @@ import {fetchStudentsAndTotal} from "../redux-student/action/student/resultActio
 import Pager from "./common/Pager";
 import store from "../redux-student";
 import Loading from "./Loading";
-import {connect} from "../react-redux";
+import {connect,connectAdvanced} from "react-redux";
 
 let mapStateToProps = state => ({
     defaultValue: {
@@ -47,13 +47,29 @@ mapDispatchToProps = dispatch => ({
     }
 });
 
-const PagerTemp = connect(mapStateToProps, mapDispatchToProps)(Pager);
+function selectorFactory(dispatch) {
+    return function (state,ownProps){
+        return{
+            current: state.search.page,
+            total: state.result.total,
+            limit: state.search.limit,
+            panelNumber: 5,
+            onPageChange: newPage => {
+                dispatch(changeCondition({
+                    page: newPage,
+                }));
+                dispatch(fetchStudentsAndTotal());
+            }
+        }
+    }
+}
+const PagerTemp = connectAdvanced(selectorFactory)(Pager);
 
 mapStateToProps = state =>({
    show: state.result.isLoading
 });
 
-const LoadingTemp = connect(mapStateToProps,mapDispatchToProps)(Loading);
+const LoadingTemp = connect(mapStateToProps)(Loading);
 
 export default class StudentSearch extends React.Component {
     componentDidMount() {

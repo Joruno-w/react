@@ -1,6 +1,6 @@
 import React from 'react';
 import store from "./redux-student";
-import {Provider} from "./react-redux";
+import {Provider} from "react-redux";
 import StudentSearch from "./components/StudentSearch";
 
 console.log(store.getState());
