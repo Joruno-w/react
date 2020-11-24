@@ -1,8 +1,8 @@
-import React from 'react';
-import {connect} from 'react-redux';
-import {increase, decrease, asyncIncrease, asyncDecrease} from "./redux-student/action/counter";
+import React, {useRef} from 'react';
+import {connect} from 'dva';
 
 function Counter(props) {
+    const inputRef = useRef();
     return (
         <div>
             <h1>{props.number}</h1>
@@ -11,6 +11,12 @@ function Counter(props) {
                 <button onClick={props.onDecrease}>减</button>
                 <button onClick={props.onAsyncIncrease}>异步加</button>
                 <button onClick={props.onAsyncDecrease}>异步减</button>
+            </div>
+            <div>
+                <input type="number" ref={inputRef} onChange={e=>{
+                    const n = parseInt(e.target.value || 0);
+                    props.onAdd(n);
+                }}/>
             </div>
         </div>
     );
@@ -23,16 +29,19 @@ const mapStateToProps = state =>({
 
 const mapDispatchToProps = dispatch => ({
     onIncrease(){
-        dispatch(increase());
+        dispatch({type: "counter/increase"});
     },
     onDecrease(){
-        dispatch(decrease())
+        dispatch({type: "counter/decrease"});
     },
     onAsyncIncrease(){
-        dispatch(asyncIncrease())
+        dispatch({type: "counter/asyncIncrease"});
     },
     onAsyncDecrease(){
-        dispatch(asyncDecrease())
+        dispatch({type: "counter/asyncDecrease"});
+    },
+    onAdd(n){
+        dispatch({type: "counter/add",payload: n});
     }
 });
 

@@ -1,5 +1,10 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import App from "./App";
+import dva from 'dva';
+import Counter from "./models/Counter";
 
-ReactDOM.render(<App/>,document.getElementById('root'));
+const app = dva();
+
+app.model(Counter);
+app.router(App);
+app.start("#root");

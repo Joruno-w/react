@@ -1,23 +1,14 @@
 import React from 'react';
+import Counter from "./Counter";
 import store from "./redux-student";
-import {Provider} from "react-redux";
-import {Route,Switch} from 'react-router-dom';
-import Login from "./components/Login";
-import Admin from "./components/Admin";
-import {ConnectedRouter} from 'connected-react-router';
-import history from "./redux-student/history";
+import {Provider} from 'react-redux';
 
 function App() {
-    return (
+    return(
         <Provider store={store}>
-            <ConnectedRouter history={history}>
-                <Switch>
-                    <Route path="/login" component={Login} />
-                    <Route path="/" component={Admin} />
-                </Switch>
-            </ConnectedRouter>
+            <Counter />
         </Provider>
-    );
+    )
 }
 
 export default App;
