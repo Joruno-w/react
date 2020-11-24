@@ -3,28 +3,14 @@ import reducer from './reducer';
 import logger from 'redux-logger';
 import * as actionTypes from "./action/counter";
 import createSagaMiddleware from 'redux-saga';
+import {composeWithDevTools} from 'redux-devtools-extension';
 import sagaTask from './saga';
-import {fetchStudentsAndTotal} from "./action/student/resultAction";
+import {routerMiddleware} from "connected-react-router";
+import history from "./history";
+
+const routerMid = routerMiddleware(history);
 const sagaMiddleware = createSagaMiddleware();
-const store = createStore(reducer,applyMiddleware(sagaMiddleware,logger));
+const store = createStore(reducer,composeWithDevTools(applyMiddleware(routerMid,sagaMiddleware,logger)));
 sagaMiddleware.run(sagaTask);
-window.increase = ()=>{
-    store.dispatch(actionTypes.increase());
-}
-window.decrease = ()=>{
-    store.dispatch(actionTypes.decrease());
-}
-window.asyncDecrease = ()=>{
-    store.dispatch(actionTypes.asyncDecrease());
-}
-window.asyncIncrease = ()=>{
-    store.dispatch(actionTypes.asyncIncrease());
-}
-window.fetchStudent = ()=>{
-    store.dispatch(fetchStudentsAndTotal());
-}
-window.add = n=>{
-    store.dispatch(actionTypes.add(n));
-}
 
 export default store;

@@ -1,6 +1,6 @@
-export const SET_STUDENTS_AND_TOTAL = Symbol('set-students-and-total');
-export const SET_LOADING = Symbol("set-loading");
-export const FETCH_STUDENT_AND_TOTAL = Symbol("fetch-student-and-total");
+export const SET_STUDENTS_AND_TOTAL = "SET_STUDENTS_AND_TOTAL";
+export const SET_LOADING = "SET_LOADING";
+export const FETCH_STUDENT_AND_TOTAL = "FETCH_STUDENT_AND_TOTAL";
 
 export function setStudentAndTotal(data,total){
     return{

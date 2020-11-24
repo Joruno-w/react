@@ -1,9 +1,23 @@
 import React from 'react';
+import {connect} from "react-redux";
+import {push} from 'connected-react-router';
 
-function AddStudent(props) {
+function AddStudent({onClick}) {
     return (
-        <h1>添加学生</h1>
+        <div>
+            <h1>添加学生</h1>
+            <button onClick={() => {
+                onClick && onClick();
+            }}>跳转
+            </button>
+        </div>
     );
 }
 
-export default AddStudent;
+
+const mapDispatchToProps = dispatch => ({
+    onClick: () =>dispatch(push('/course'))
+});
+
+
+export default connect(null, mapDispatchToProps)(AddStudent);
