@@ -1,8 +1,7 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {connect} from 'dva';
 
 function Counter(props) {
-    const inputRef = useRef();
     return (
         <div>
             <h1>{props.number}</h1>
@@ -13,7 +12,7 @@ function Counter(props) {
                 <button onClick={props.onAsyncDecrease}>异步减</button>
             </div>
             <div>
-                <input type="number" ref={inputRef} onChange={e=>{
+                <input type="number" onChange={e=>{
                     const n = parseInt(e.target.value || 0);
                     props.onAdd(n);
                 }}/>

@@ -9,7 +9,6 @@ export default {
             return state - 1;
         },
         add(state,{payload}){
-            console.log(payload);
             return state + payload;
         }
     },
