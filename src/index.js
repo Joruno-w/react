@@ -2,7 +2,7 @@ import Counter from "./models/Counter";
 import routerConfig from "./routerConfig";
 import dva from "dva";
 import {createBrowserHistory} from "history";
-import createLoading from 'dva-loading';
+import createLoading from './dva/dva-loading';
 
 const app = dva({
     history: createBrowserHistory()

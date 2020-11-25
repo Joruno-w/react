@@ -19,6 +19,13 @@ export default function (opt={}){
     const option = getOption();
     return app;
 
+    function use(plugin) {
+        return{
+            ...option,
+            ...plugin
+        }
+    }
+
     function getOption(){
         const defaultOption = {
             history: opt.history || createHashHistory(),
@@ -106,7 +113,7 @@ export default function (opt={}){
                     }
                     if (option.onEffect){
                         const oldEffect = func;
-                        func = option.onEffect(oldEffect,sagaEffects,model,item.type);
+                        func = option.onEffect(oldEffect,sagaEffects,item.model,item.type);
                     }
                     yield sagaEffects.takeEvery(item.type,func);
                 }
