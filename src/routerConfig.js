@@ -1,6 +1,6 @@
 import React from "react";
 import Counter from "./Counter";
-import {routerRedux,Route, NavLink,Switch} from './dva/router';
+import {routerRedux,Route, NavLink,Switch} from 'dva/router';
 
 function Home() {
     return <h1>首页</h1>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {connect} from './dva';
+import {connect} from 'dva';
 
 function Counter(props) {
     return (
