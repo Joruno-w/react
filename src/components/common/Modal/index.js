@@ -3,7 +3,7 @@ import './index.css';
 import PropTypes from 'prop-types';
 import types from "../../../utils/commonTypes";
 Modal.propTypes = {
-    onClose: PropTypes.func.isRequired,
+    onClose: PropTypes.func,
     children: types.children
 }
 function Modal(props) {

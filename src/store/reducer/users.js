@@ -1,17 +1,35 @@
 import * as usersAction from '../action/usersAction';
-import {v4 as uuid} from 'uuid';
-const initialState = [
-    {id: uuid(),name:'用户1',age:11},
-    {id: uuid(),name:'用户2',age:12},
-];
+const initialState = {
+    isLoading: false,
+    data: []
+};
 export default (state=initialState,{type,payload})=>{
     switch (type) {
         case usersAction.ADD_USER:
-            return [...state,payload];
+            return{
+                ...state,
+                data: payload
+            };
         case usersAction.DELETE_USER:
-            return state.filter(it=>it.id !== payload.id);
+            return {
+                ...state,
+                data: state.filter(it=>it.id !== payload.id)
+            };
         case usersAction.UPDATE_USER:
-            return state.map(it=>it.id === payload.id ? payload : it);
+            return{
+                ...state,
+                data: state.map(it=>it.id === payload.id ? {...it,...payload} : it)
+            };
+        case usersAction.SET_USER:
+            return {
+                ...state,
+                data: payload
+            };
+        case usersAction.SET_LOADING:
+            return {
+                ...state,
+                isLoading: payload
+            };
         default:
             return state;
     }

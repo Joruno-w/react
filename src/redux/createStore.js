@@ -1,15 +1,14 @@
-function getRandomStr(length){
-    return Math.random().toString(36).substr(2,length);
-}
+import isPlainObj from "./utils/isPlainObj";
+import actionTypes from "./utils/actionTypes";
 
-function isPlainObj(action) {
-    if (typeof action !== "object"){
-        throw new TypeError("action must be a object");
+export default function createStore(reducer,defaultState,enhancer){
+    if (typeof defaultState === "function"){
+        enhancer = defaultState;
+        defaultState = undefined;
     }
-    return Object.prototype.isPrototypeOf(action);
-}
-
-export default function createStore(reducer,defaultState){
+    if (typeof enhancer === "function"){
+        return enhancer(createStore)(reducer,defaultState);
+    }
     let currentState = defaultState,
         currentReducer = reducer;
     const listeners = [];
@@ -18,7 +17,7 @@ export default function createStore(reducer,defaultState){
         if (!isPlainObj(action)){
             throw new TypeError("action must be a plain object");
         }
-        if (!"type" in action) {
+        if (action.type === undefined) {
             throw new Error("action must have a type property");
         }
         currentState = currentReducer(currentState,action);
@@ -29,7 +28,11 @@ export default function createStore(reducer,defaultState){
 
     function subscribe(listener) {
         listeners.push(listener);
+        const isRemove = !listeners.includes(listener);
         return ()=>{
+            if (isRemove){
+                return;
+            }
             const index = listeners.indexOf(listener);
             listeners.splice(index,1);
         }
@@ -41,7 +44,7 @@ export default function createStore(reducer,defaultState){
 
 
     dispatch({
-        type: `@@redux/INIT.${getRandomStr(4).split("").join(".")}`
+        type: actionTypes.INIT()
     });
 
     return{

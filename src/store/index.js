@@ -1,15 +1,12 @@
-import {createStore} from "../redux";
+import {createStore,applyMiddleware} from "../redux";
 import reducer from './reducer';
-import * as usersAction from './action/usersAction';
-import * as loginUserAction from './action/loginUserAction';
-import {v4 as uuid} from "uuid";
+import logger from 'redux-logger';
+import createSagaMiddleware from '../redux/saga';
+import sagaTask from './saga';
+const sagaMiddleware = createSagaMiddleware();
 
-const store = createStore(reducer);
-store.subscribe(()=>{
-    console.log(store.getState());
-});
-store.dispatch(usersAction.addUserCreator({
-    id: uuid(),
-    name: '用户3',
-    age: 23
-}));
+const store = applyMiddleware(sagaMiddleware,logger)(createStore)(reducer);
+
+sagaMiddleware.run(sagaTask);
+
+export default store;
