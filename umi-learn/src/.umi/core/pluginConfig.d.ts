@@ -65,7 +65,7 @@ export interface IConfigFromPlugins {
     mode?: "emit" | "verify";
   };
   cssnano?: {};
-  copy?: string[];
+  copy?: any[];
   define?: {};
   devScripts?: {};
   /**
@@ -77,8 +77,13 @@ export interface IConfigFromPlugins {
      */
     port?: number;
     host?: string;
-    https?: {} | boolean;
-    http2?: boolean;
+    https?:
+      | {
+          key?: string;
+          cert?: string;
+          [k: string]: any;
+        }
+      | boolean;
     headers?: {};
     writeToDisk?: boolean | (() => any);
     [k: string]: any;
@@ -106,25 +111,16 @@ export interface IConfigFromPlugins {
   extraBabelPresets?: any[];
   extraPostCSSPlugins?: any[];
   /**
-   * More options see https://www.npmjs.com/package/fork-ts-checker-webpack-plugin#options
+   * fork-ts-checker-webpack-plugin options see https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#options
    */
   forkTSChecker?: {
-    /**
-     * Path to tsconfig.json file
-     */
-    tsconfig?: string;
-    /**
-     * Allows overriding TypeScript options. Should be specified in the same format as you would do for the compilerOptions property in tsconfig.json.
-     */
-    compilerOptions?: {};
-    eslint?: boolean;
-    eslintOptions?: {};
     async?: boolean;
-    ignoreDiagnostics?: number[];
-    formatter?: any;
-    formatterOptions?: {};
-    silent?: boolean;
-    checkSyntacticErrors?: boolean;
+    typescript?: boolean | {};
+    eslint?: {};
+    issue?: {};
+    formatter?: string | {};
+    logger?: {};
+    [k: string]: any;
   };
   hash?: boolean;
   ignoreMomentLocale?: boolean;
@@ -132,7 +128,7 @@ export interface IConfigFromPlugins {
   lessLoader?: {};
   manifest?: {
     fileName?: string;
-    publicPath?: string;
+    publicPath?: "";
     basePath?: string;
     writeToFileEmit?: boolean;
   };
@@ -151,9 +147,13 @@ export interface IConfigFromPlugins {
   runtimePublicPath?: boolean;
   ssr?: {
     /**
-     * remove window.g_initialProps in html, to force execing Page getInitialProps  functions
+     * force execing Page getInitialProps functions
      */
     forceInitial?: boolean;
+    /**
+     * remove window.g_initialProps in html
+     */
+    removeWindowInitialProps?: boolean;
     /**
      * disable serve-side render in umi dev mode.
      */
@@ -169,6 +169,7 @@ export interface IConfigFromPlugins {
   targets?: {};
   terserOptions?: {};
   theme?: {};
+  runtimeHistory?: {};
   favicon?: string;
   headScripts?: any[];
   links?: any[];

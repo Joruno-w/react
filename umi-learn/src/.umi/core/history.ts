@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory } from 'C:/Users/17106/AppData/Local/Yarn/Data/global/node_modules/@umijs/runtime';
+import { createBrowserHistory } from 'C:/Users/17106/Desktop/react/umi-learn/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"
@@ -16,11 +16,6 @@ export const createHistory = (hotReload = false) => {
   }
 
   return history;
-};
-
-// 通常仅微前端场景需要调用这个 API
-export const setCreateHistoryOptions = (newOpts: any = {}) => {
-  options = { ...options, ...newOpts };
 };
 
 export { history };

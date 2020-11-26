@@ -20,166 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4982b3a0-1e8a-4ab6-817b-e975fb1ab9ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umi-learn/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/Page2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ 笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-13-51-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-17-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-49-53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-56-35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/Page1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Admin/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Prompt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RouteGuard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentSearchBar/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentSearchBar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentTable/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentTable/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TransitionRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/ImgContainer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchArrow/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchArrow/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchDots/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchDots/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CheckBoxGroup/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/ErrorBound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FadeTransition/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FadeTransition/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/FormButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/FormInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Layout/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Layout/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Modal/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Modal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Pager/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Pager/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/RadioBoxGroup/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SelectGroup/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/hoc/WithDataGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/course/AddCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/course/Courses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/student/AddStudent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/student/StudentDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/student/StudentList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/actionTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/actionl-creators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/connectRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/connectedRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connected-react-router/routerMiddleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva/dva-loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva/dva.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva/saga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux/Provider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux/connect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux/ctx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/BrowserRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/Link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/NavLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/BlockManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/ListenerManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/createBrowserHistory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router-dom/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/Route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/Router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/RouterContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/Switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/pathToRegexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-router/withRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/action/counter/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/action/student/resultAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/action/student/searchAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/counter/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/student/resultReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/student/searchReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/student.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/applyMiddleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/bindActionCreators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/combineReducers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/compose.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/createStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-thunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/Channel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/Task.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effectHelper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/call.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/fork.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/take.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/takeEvery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/runEffect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/runSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/utils/actionTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/utils/isPlainObj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routerConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/getStudent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/action/loginUserAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/action/usersAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/loginUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/saga/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/useScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/commonTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/logininfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/withScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/渲染过程.pptx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/00692f0eac635e46a17a8fd21742eecf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/01944599fb282b81e5f00595086856b2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/01a4d60751d9316bdd656be9a9749f62.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0bfddad131daf86bbc6f2c04874db731.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0eea22eae300ab6a591b9febe3a93ecb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1374a9973ac77cd56eb3491e9e553952.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/184020226e7b49d8da4dc3fc52d8d555.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1ee135e03f2a195c0291f02d77c75fcd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1f2c6ac8a31ba3a7afb606bfe7a4df03.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2237fc59ec2557093e662e89c01383f5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/231a151ffe94881a3055d13306fcb33a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/31ed2ccee800fab6fafafbb09c2c52df.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/340f94dda68dcbd9eaf6b4c541ab1d34.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/37a842226ba1d514280c649fc6c6e32e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/44387148d551a4208a7623b08a31ccf6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4bf3017300e0e52b15cff8a4feeddeb2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4c47d99dbac2a5ee40423a6a0fc00a64.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5171d15bb223b8ee1995056b61814bfb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/54016bd628d51cd0d8d3501233baf508.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5a8e19fbb4d93f58c8c207861f23d495.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/65d78d52e9a165e710649a93a768dae8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6ac14b1c700c43d29787d07e4afd7044.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6de51a8d498a21313043f176d1cca169.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/759521a0d6cb0400c5222080b15ec385.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7fd52ed0bc51f265c47e07f464ddae74.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8217b48542231eb20bc58d71a3690733.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/858cba7300571b70089602be00f26c92.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8c8e3b2521e9df6005f94234d9a3434f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8cfcaa7ac3f9ecd966a1db15a13be6fe.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8e104572a11c133f063034be6f06d2b9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8e9fa8022302850c413857c021bf9528.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/907f2b431b61385bd9ad315e8759b83b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9e2b8f6f5870af92153792f8b1c54a24.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a3cc375a57f44f7015d268b08aa734b8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a487a3a31be47d46acad754ccf9bfd2e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a9a9fb7e719ec72352710a191ddbc06e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/acae6b266d3287bbe43e4365d66b769e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b2f7af4d8f23f5bbb3385b456160163e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b66b0766858bf9ead907cf7ca62e9ca6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bc8288c26c84b45c9dcafaaf4b47ea43.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bca237fec4aa6b7591b61684854d72ab.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ce822f88d97cc12cc1bc6287b08e6fcd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d11bd7bddbdf0acc72b3faf124c24ce9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/db72810f432f3c2d5dd1086ca92f3aa1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e3ed9bec2ae18f10d9158ab89f8099ff.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f071f6344756830c0b6ea748bfd41596.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f205c030fd6bf015902844139f403259.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f28aaa79054f3aad57f92afe2b074efb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f95a0b0b9da7e277a4abf7dcf6f2dba0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fc7049540fdde82ea13d0b7d8187691a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginRegister.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/layouts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/detail/[id$].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/sub/_layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/sub/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/sub/b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/sub/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/history.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/history.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/plugin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginConfig.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginConfig.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/umiExports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/umiExports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/umi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/umi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +105,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9-1.umijs简介" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1koFunzkDo6H5jSF2MAdcmPZHqx" />
@@ -208,7 +124,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -218,8 +141,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606359264303</updated>
-      <workItem from="1606359267377" duration="968000" />
+      <workItem from="1606359267377" duration="6368000" />
     </task>
+    <task id="LOCAL-00001" summary="umijs简介">
+      <created>1606360616758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606360616758</updated>
+    </task>
+    <task id="LOCAL-00002" summary="umijs简介">
+      <created>1606360686095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606360686095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,5 +176,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="umijs简介" />
+    <option name="LAST_COMMIT_MESSAGE" value="umijs简介" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="496" height="610" key="Git.Branch.Popup" timestamp="1606360772488">
+      <screen x="0" y="23" width="1280" height="697" />
+    </state>
+    <state width="496" height="610" key="Git.Branch.Popup/0.23.1280.697@0.23.1280.697" timestamp="1606360772488" />
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2" timestamp="1606360690137">
+      <screen x="0" y="23" width="1280" height="697" />
+    </state>
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1606360690137" />
   </component>
 </project>
