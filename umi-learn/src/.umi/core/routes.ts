@@ -8,26 +8,27 @@ export function getRoutes() {
   const routes = [
   {
     "path": "/",
-    "component": require('C:/Users/17106/Desktop/react/umi-learn/src/layouts/index').default,
-    "exact": false,
+    "component": require('@/layouts/index.js').default,
     "routes": [
       {
+        "path": "/counter",
+        "exact": true,
+        "component": require('@/pages/counter.js').default
+      },
+      {
         "path": "/",
-        "component": require('C:/Users/17106/Desktop/react/umi-learn/src/pages/index').default,
-        "title": "首页",
-        "exact": true
+        "exact": true,
+        "component": require('@/pages/index.js').default
       },
       {
-        "path": "/login",
-        "component": require('C:/Users/17106/Desktop/react/umi-learn/src/pages/Login').default,
-        "title": "登录页",
-        "exact": true
+        "path": "/Login",
+        "exact": true,
+        "component": require('@/pages/Login.js').default
       },
       {
-        "path": "/welcome",
-        "component": require('C:/Users/17106/Desktop/react/umi-learn/src/pages/Welcome').default,
-        "title": "欢迎页",
-        "exact": true
+        "path": "/Welcome",
+        "exact": true,
+        "component": require('@/pages/Welcome.js').default
       }
     ]
   }

@@ -12,7 +12,7 @@ function Welcome(props) {
             }}>注销</button>
         </div>
     }
-    return null;
+    return <h1>欢迎页</h1>;
 }
 
 export default Welcome;
