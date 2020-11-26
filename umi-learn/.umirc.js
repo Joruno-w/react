@@ -19,6 +19,7 @@ export default {
                     path: '/welcome',
                     component: './Welcome',
                     title: '欢迎页',
+                    wrappers: ["@/routes/PrivateRoute"]
                 }
             ]
         }

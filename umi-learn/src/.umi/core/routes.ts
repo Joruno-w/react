@@ -27,6 +27,7 @@ export function getRoutes() {
         "path": "/welcome",
         "component": require('C:/Users/17106/Desktop/react/umi-learn/src/pages/Welcome').default,
         "title": "欢迎页",
+        "wrappers": [require('@/routes/PrivateRoute').default],
         "exact": true
       }
     ]
