@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4982b3a0-1e8a-4ab6-817b-e975fb1ab9ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/umi-learn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/Page2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ 笔记.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-13-51-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-17-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-49-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2019-07-25-14-56-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/Page1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Admin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RouteGuard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentSearchBar/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentSearchBar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentTable/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StudentTable/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransitionRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/ImgContainer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchArrow/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchArrow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchDots/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/SwitchDots/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/img/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/CheckBoxGroup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/ErrorBound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FadeTransition/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FadeTransition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/FormButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/FormInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Layout/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Layout/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Modal/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Modal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Pager/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Pager/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/RadioBoxGroup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SelectGroup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/hoc/WithDataGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course/AddCourse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course/Courses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/student/AddStudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/student/StudentDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/student/StudentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/actionTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/actionl-creators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/connectRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/connectedRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connected-react-router/routerMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva/dva-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva/dva.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva/saga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux/Provider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux/connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux/ctx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/BrowserRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/Link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/NavLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/BlockManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/ListenerManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/createBrowserHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/history/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router-dom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/RouterContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/pathToRegexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-router/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/action/counter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/action/student/resultAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/action/student/searchAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/counter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/student/resultReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/reducer/student/searchReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-student/saga/student.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/applyMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/bindActionCreators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/combineReducers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/compose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/createStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-thunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/Channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/Task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effectHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/call.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/fork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/put.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/take.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/effects/takeEvery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/runEffect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/saga/runSaga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/utils/actionTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/utils/isPlainObj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routerConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/getStudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/action/loginUserAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/action/usersAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/loginUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/saga/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/commonTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/logininfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/withScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/渲染过程.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1koFunzkDo6H5jSF2MAdcmPZHqx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4982b3a0-1e8a-4ab6-817b-e975fb1ab9ba" name="Default Changelist" comment="" />
+      <created>1606359264303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606359264303</updated>
+      <workItem from="1606359267377" duration="968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
