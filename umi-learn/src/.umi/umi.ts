@@ -9,7 +9,7 @@ import { renderClient } from 'C:/Users/17106/Desktop/react/umi-learn/node_module
 import { getRoutes } from './core/routes';
 
 
-
+require('../global.css');
 
 const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin.applyPlugins({
   key: 'render',
