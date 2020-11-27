@@ -6,7 +6,8 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from 'C:/Users/17106/Desktop/react/umi-learn/src/models/counter';
+export * from 'C:/Users/17106/Desktop/react/umi-learn/src/models/loginUser';
+export * from 'C:/Users/17106/Desktop/react/umi-learn/src/models/students';
 
 export interface Action<T = any> {
   type: T

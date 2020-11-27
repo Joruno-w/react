@@ -5,7 +5,8 @@ import dva from 'dva';
 // @ts-ignore
 import createLoading from 'C:/Users/17106/Desktop/react/umi-learn/node_modules/dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
-import ModelCounter0 from 'C:/Users/17106/Desktop/react/umi-learn/src/models/counter.js';
+import ModelLoginUser0 from 'C:/Users/17106/Desktop/react/umi-learn/src/models/loginUser.js';
+import ModelStudents1 from 'C:/Users/17106/Desktop/react/umi-learn/src/models/students.js';
 
 let app:any = null;
 
@@ -29,7 +30,8 @@ export function _onCreate(options = {}) {
   (runtimeDva.plugins || []).forEach((plugin:any) => {
     app.use(plugin);
   });
-  app.model({ namespace: 'counter', ...ModelCounter0 });
+  app.model({ namespace: 'loginUser', ...ModelLoginUser0 });
+app.model({ namespace: 'students', ...ModelStudents1 });
   return app;
 }
 

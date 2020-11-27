@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th,
+table td{
+    border: 1px solid #ccc;
+}
+
+table tr{
+    height: 30px;
+}

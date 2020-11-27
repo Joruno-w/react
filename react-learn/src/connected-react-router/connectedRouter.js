@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Router} from 'react-router-dom';
-import {createLocationChangeAction} from "./actionl-creators";
+import {createLocationChangeAction} from "./action-creators";
 import {ReactReduxContext} from 'react-redux';
 
 class ConnectedRouter extends Component {

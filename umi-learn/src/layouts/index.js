@@ -1,13 +1,15 @@
 import React from 'react';
-import Menu from "../components/Menu/Menu";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Aside from '../components/Aside';
 
 function Index(props) {
-    return (
-        <div>
-            <Menu />
-            <div>{props.children}</div>
-        </div>
-    );
+    if (props.location.pathname === '/login'){
+        return props.children;
+    }else{
+        return <Layout header={<Header/>} aside={<Aside/>} content={props.children}/>
+    }
+
 }
 
 export default Index;
