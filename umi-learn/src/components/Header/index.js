@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './index.css';
 import {connect} from 'dva';
+
 function Index(props) {
     return (
         <div className={styles.header}>
