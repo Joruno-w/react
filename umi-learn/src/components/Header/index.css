@@ -18,19 +18,9 @@
 }
 
 .button{
-    width: 50px;
-    height: 30px;
-    outline: none;
-    color: #000;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all .4s;
+    padding-left: 7px;
 }
 
-.button:hover{
-    background-color: #1579ff;
-    color:#fff;
-}
 
 .operation span{
     margin-right: 15px;

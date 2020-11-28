@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.css';
 import {connect} from 'dva';
-import {Button} from "antd";
+import {Button,Tooltip} from "antd";
 import {LogoutOutlined} from '@ant-design/icons'
 
 function Index(props) {
@@ -12,11 +12,11 @@ function Index(props) {
                 <span>欢迎你</span>
                 <span>|</span>
                 <span>{props.loginUser}</span>
-                <Button type="primary" size="small" onClick={()=>{
-                    props.onLoginOut && props.onLoginOut();
-                }} style={{paddingLeft: 20}}>
-                    <LogoutOutlined />
-                </Button>
+                <Tooltip title="注销">
+                    <Button type="primary" shape="circle" className={styles.button} icon={<LogoutOutlined />} onClick={()=>{
+                        props.onLoginOut && props.onLoginOut();
+                    }}/>
+                </Tooltip>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ function Index(props) {
                 </Sider>
                 <Layout>
                     <Content style={{
-                        padding: "20px 20px 0 20px"
+                        padding: 20
                     }}>
                         {props.content}
                     </Content>

@@ -1,38 +1,42 @@
 import React from 'react';
-import './index.css';
 import {connect} from 'dva';
-function StudentTable(props) {
-    const trs = props.stus.map(it=><tr key={it.id}>
-        <td>{it.sNo}</td>
-        <td>{it.name}</td>
-        <td>{it.birth}</td>
-        <td>{it.email}</td>
-        <td>{it.phone}</td>
-        <td>
-            <a href={`/student/${it.sNo}`}>详情</a>
-        </td>
-    </tr>);
+import {Pagination, Table} from 'antd';
+
+function StudentTable({stus}) {
+    const columns = [
+        {
+            title: '学号',
+            dataIndex: 'sNo',
+        },
+        {
+            title: '姓名',
+            dataIndex: 'name',
+        },
+        {
+            title: '出生日期',
+            dataIndex: 'birth',
+        },
+        {
+            title: '电话',
+            dataIndex: 'phone',
+        },
+        {
+            title: '邮箱',
+            dataIndex: 'email',
+        },
+        {
+            title: '操作',
+            dataIndex: 'operation',
+            render: (txt, record) => <a href={`/student/${record.sNo}`}>详情</a>
+        },
+    ];
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>学号</th>
-                    <th>姓名</th>
-                    <th>出生日期</th>
-                    <th>邮箱</th>
-                    <th>电话</th>
-                    <th>操作</th>
-                </tr>
-            </thead>
-            <tbody>
-                {trs}
-            </tbody>
-        </table>
+        <Table bordered dataSource={stus} columns={columns} pagination={false}/>
     );
 }
 
-const mapStateToProps = state=>({
+const mapStateToProps = state => ({
     stus: state.students.result.datas
 });
 
-export default connect(mapStateToProps,null)(StudentTable);
+export default connect(mapStateToProps, null)(StudentTable);

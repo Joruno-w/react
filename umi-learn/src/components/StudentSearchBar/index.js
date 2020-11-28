@@ -1,60 +1,56 @@
 import React, {Component} from 'react';
-import styles from './index.css';
 import {connect} from 'dva';
-import {Button} from "antd";
+import {Input, Button, Radio} from "antd";
 
-class StudentSearchBar extends Component {
+class StudentSearchBar extends Component{
     constructor(props) {
         super(props);
         const def = {
             key: '',
             sex: -1,
         };
-        this.state = Object.assign({},def,this.props.defaultValue);
+        this.state = Object.assign({}, def, this.props.defaultValue);
     }
 
-    handleRadioChange = e=>{
+    handleRadioChange = e => {
         this.setState({
             sex: +e.target.value
         });
     };
 
-    handleSearch = ()=>{
-      this.props.onSearch && this.props.onSearch(this.state);
+    handleSearch = () => {
+        this.props.onSearch && this.props.onSearch(this.state);
     };
 
     render() {
         return (
             <div>
-                关键字: <input type="text" className={styles.search} placeholder="请输入关键字" onChange={e=>this.setState({key: e.target.value})}/>
-                <label>
-                    <input type="radio" className={styles.search} checked={this.state.sex === -1} value={-1} onChange={this.handleRadioChange}/>不限
-                </label>
-                <label>
-                    <input type="radio" className={styles.search} checked={this.state.sex === 0} value={0} onChange={this.handleRadioChange}/>男
-                </label>
-                <label>
-                    <input type="radio" className={styles.search} checked={this.state.sex === 1} value={1} onChange={this.handleRadioChange}/>女
-                </label>
-                <Button onClick={this.handleSearch} className={styles.search} type="primary" >搜索</Button>
+                关键字: <Input type="text" style={{width: 200}} placeholder="请输入关键字"
+                            onChange={e => this.setState({key: e.target.value})} onPressEnter={this.handleSearch}/>
+                <Radio.Group name="sex" value={this.state.sex} onChange={this.handleRadioChange}>
+                    <Radio value={-1} checked={this.state.sex === -1}>不限</Radio>
+                    <Radio value={0} checked={this.state.sex === 0}>女</Radio>
+                    <Radio value={1} checked={this.state.sex === 1}>男</Radio>
+                </Radio.Group>
+                <Button onClick={this.handleSearch} type="primary">搜索</Button>
             </div>
         );
     }
 }
 
-const mapStateToProps = state=>({
+const mapStateToProps = state => ({
     defaultValue: {
         key: "",
         sex: -1
     }
 });
 
-const mapDispatchToProps = dispatch=>({
-    onSearch(condition){
+const mapDispatchToProps = dispatch => ({
+    onSearch(condition) {
         condition.page = 1;
-        dispatch({type:'students/setCondition',payload: condition});
-        dispatch({type:'students/fetchStudents'});
+        dispatch({type: 'students/setCondition', payload: condition});
+        dispatch({type: 'students/fetchStudents'});
     }
 });
 
-export default connect(mapStateToProps,mapDispatchToProps)(StudentSearchBar);
+export default connect(mapStateToProps, mapDispatchToProps)(StudentSearchBar);
