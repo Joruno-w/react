@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4982b3a0-1e8a-4ab6-817b-e975fb1ab9ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="9-7.【demo】学生管理" />
+        <entry key="$PROJECT_DIR$" value="9-8.umi配置" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +51,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Login/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Modal/index.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/笔记.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/services/getStudent.js" root0="SKIP_INSPECTION" />
@@ -118,7 +118,7 @@
       <workItem from="1606475605177" duration="6240000" />
       <workItem from="1606487325464" duration="1231000" />
       <workItem from="1606527761308" duration="414000" />
-      <workItem from="1606528193837" duration="1600000" />
+      <workItem from="1606528193837" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="umijs简介">
       <created>1606360616758</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606481419339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="umi配置">
+      <created>1606529865256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606529865256</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +202,8 @@
     <MESSAGE value="使用样式" />
     <MESSAGE value="代理和数据模拟" />
     <MESSAGE value="使用umi搭建简易版学生管理系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用umi搭建简易版学生管理系统" />
+    <MESSAGE value="umi配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="umi配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="173" key="#Configure_Path_Variables" timestamp="1606437856299">
@@ -218,18 +226,18 @@
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state x="299" y="141" key="EditFileWatcherDialog/0.23.1280.697@0.23.1280.697" timestamp="1606397532291" />
-    <state width="532" height="697" key="Git.Branch.Popup" timestamp="1606529765532">
+    <state width="536" height="697" key="Git.Branch.Popup" timestamp="1606529911748">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
-    <state width="532" height="697" key="Git.Branch.Popup/0.23.1280.697@0.23.1280.697" timestamp="1606529765532" />
+    <state width="536" height="697" key="Git.Branch.Popup/0.23.1280.697@0.23.1280.697" timestamp="1606529911748" />
     <state x="150" y="22" key="SettingsEditor" timestamp="1606529400372">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state x="150" y="22" key="SettingsEditor/0.23.1280.697@0.23.1280.697" timestamp="1606529400372" />
-    <state x="233" y="86" key="Vcs.Push.Dialog.v2" timestamp="1606481426791">
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2" timestamp="1606529867741">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
-    <state x="233" y="86" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1606481426791" />
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1606529867741" />
     <state x="442" y="23" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606367535341">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
