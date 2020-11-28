@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './index.css';
 import {connect} from 'dva';
+import {Button} from "antd";
+import {LogoutOutlined} from '@ant-design/icons'
 
 function Index(props) {
     return (
@@ -10,9 +12,11 @@ function Index(props) {
                 <span>欢迎你</span>
                 <span>|</span>
                 <span>{props.loginUser}</span>
-                <button className={styles.button} onClick={()=>{
+                <Button type="primary" size="small" onClick={()=>{
                     props.onLoginOut && props.onLoginOut();
-                }}>注销</button>
+                }} style={{paddingLeft: 20}}>
+                    <LogoutOutlined />
+                </Button>
             </div>
         </div>
     );

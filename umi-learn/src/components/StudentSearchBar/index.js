@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import styles from './index.css';
 import {connect} from 'dva';
+import {Button} from "antd";
+
 class StudentSearchBar extends Component {
     constructor(props) {
         super(props);
@@ -34,7 +36,7 @@ class StudentSearchBar extends Component {
                 <label>
                     <input type="radio" className={styles.search} checked={this.state.sex === 1} value={1} onChange={this.handleRadioChange}/>女
                 </label>
-                <button onClick={this.handleSearch} className={`${styles.search} ${styles.button}`} >搜索</button>
+                <Button onClick={this.handleSearch} className={styles.search} type="primary" >搜索</Button>
             </div>
         );
     }
