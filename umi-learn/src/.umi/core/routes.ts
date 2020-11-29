@@ -34,6 +34,11 @@ export function getRoutes() {
         "path": "/student/:id",
         "exact": true,
         "component": require('@/pages/student/[id].js').default
+      },
+      {
+        "path": "/upload",
+        "exact": true,
+        "component": require('@/pages/upload.js').default
       }
     ]
   }
