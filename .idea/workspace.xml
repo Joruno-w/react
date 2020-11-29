@@ -23,225 +23,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4982b3a0-1e8a-4ab6-817b-e975fb1ab9ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/00035038a0ff94268e85b5f1e28d0197.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/029b93b81c27aed1718cc6fc62cffa7d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/042d31c7cfd9c9731c1514a99ce8104e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0485da20709aec16047dc25483103e3a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/05532aebd907a04abe6087ba58d1a642.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/071489c6b6b74508561c79f04a9e1304.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/075e053390aa965d01415515f2b4c0dd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/088be21b8fa26fc537f0eb79b363d432.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/09fa866ee9b4fdcfebdf84516f78cb54.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0a1d232d503412452400fa4d30e22b00.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0a96012fac66356b47c37ebebab3a5f5.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0af4878aff6f0a59f9bbd2818695ad04.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0c88f1cde2314b70ca4aafee5ef9b40d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/0ca8279083f8725bd971031c8c9bcaf3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1086ffe40df08d0b0e28d554dbdedce0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/116b6d5c4ee49859c249b5a08d9e863d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/12f15301d272d73e3aa8c70bf6b1146d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/14948c81501906f5180af2a492ce1df6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/14aefbbf14e00f3c9943f42fbf08ddab.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/159ffd352264b3337b851433c653f8a3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/15b68dea1faf79ba7ebc3b430ebcc519.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/17fbb3ed63ea615d0fedb898913209c3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/18cf0ef1f33efdc3d58267fab3da25f1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/199e16a2b9a5b11ab373ee58f0b4bee9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1b552f2acbe8fb389083b519a5fb7b2f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1c4f8f5cd958c95ffc92dfd15038f5b2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1d3f31d353187f46a5096ef4107107a6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1d9a85194537ff4031afa8e2907b3d25.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1f421a8db686d69c464c73552b897235.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/20174c00e81c74c275dae1b126c50b89.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/21f426d3dc50901be6fc8f2122c0b7c3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/25e72f0c98f2fc09a2a80db331f82b43.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/25e8850e4bbf3e6c494fb2ec5f742132.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/267789f5665ed6cc59e253e01c12634c.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2879d97e37a7c8e76abd37ba662f93e0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2a8b32d63b17cbfcd701ec096fecfd8d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2e72098fc4727921c195c30bc46825f2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2f0719bf3bdc14b97c73dd5e5e3bfdd3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/332ab72d34491709f6933c38b6d68417.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/33b80219d286348643bbe7940c4b0a02.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3406df6d152ff594a24c3c0291ca074b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/36a3b227999e8f97da332d3eb6b92694.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/36e650c818c57c48e7a2c775dbc16f4f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/373410c8ab13af8425fcf60902256e21.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/374b8299b4b5d98e1c5c53f7ce6d7897.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/38505c5023a66fc60532415e4369223b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3872503fd6710de1aeba47f805cc8a0f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3896b85471a5d20f716cbb2ea47b172f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3abe9af83e0e110f7b9f234a89e15b0a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3b1c295337aed0222f97ce6ff7876ab3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3b4b5681f062645706b692ad32270302.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3d872d6c898f4e38aaaceca472ce5167.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3f0a5df9e8bc78d3369da38350f51b77.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3f84965e8c5a31431f7a0d0bbe655a9f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/401080bdf87e44711c08f33def966eb2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/40ee9e86badb1be193b3e252cd99bf7a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4200f15e4196322306fff4ab5b35ff6b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/42295a34548dfaca66740e720e6e17b4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/43c598e44b6829a206139584532b5d1a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4607358256d3c8554df5b6fe06a25316.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/46a0184ee1acc508f8b01654ca81d2b8.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/47af104411351bef9857cce854e4e881.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/47ea512213ba970dea3854bfad1b1aa9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/49f83b74a13aab275ac6b667a7bdac60.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4ac1fba45d108491e1d1b020d16da146.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4cdbe63555e1fc9fda565a3a664ae79f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4e77f759e2bef004edecbeae39542c10.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4f8f09e36b274ae05cafaaf5f7579113.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/50771dc25dd7518d495444eab0455cc1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5110ad6abc721859fa09a7c62c2c5ec6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5162d36e93fcc083adf34e95ce9aa29f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/53a553204e97e266352e5ca62c733ba3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/564198fad5fc8a53005eccd0e4b214ec.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/56a62e31d5d5c5406f9f904ee4862985.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/57f65d541ffffebe5dc25e91c665d4b9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5830744694395e314731ceac024c53cb.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5895b32fa9f6923c19fbc988752daeaf.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5ab5f383b9454eeef2caae45664f6b19.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5e9d0703edd1c7e3c9636414cb692362.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5f35911b7a268a5d9f9e8669799963dc.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6054a8e712e2e1407149d5493de12d50.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/62e79347c815eb69cdbf629e257c8dac.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6338f2c14a332a7ccd878ac2499731ac.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6468a80e0829c493a8b079c42fa2ae10.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/64a12dad4d4e2b8605c027046f638921.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/660bca5b45abb6e6b9c8973e02c9f305.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/66f04ef7dfae064057ff26f446c52815.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/68743f95c66ad922ae7b2748c8e2ec15.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6aa9a63eb8837bffb9377c6875bcccde.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6b969d09b4481b538b1983df291a4ea8.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6e33d336520d99ad2c13fbf9b7014194.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6f5e58972f76b7893dd5c89c9acbc752.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/70b55ad4b3e9dda8f09598687caaf965.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/712db2f3d72c07ddab0fea13519cb620.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/731b592274849957c362a848a9b3e3a4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/732b60bac39d2eb28f4ddd348377bac2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/74408e8d22282e69f1d156e2453cac50.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/74e09e03e69540cfe8c2b74aa8a57155.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/74ecfabf321ca0663d63396ff5c2424f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/782af9b4b8a159cd3fa2de2ecc042dd2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/790843c5041d33b729ddd96dd3ed1a21.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/798836bb3926d2e07adc03e68cf20b62.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/79c57392bf76d1920ccb47919c896877.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7e4d5d8d7a8c369cc8827b688102b975.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7e83d053980a5bb5c60589394fa4752a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/805ff384e41014cd481ebc5d1794e235.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/810159028e616beb2a71a1fa23ce71f2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/81266af2fec4386439193074632a14f0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8149dced4c04c64a9a123640e40ba5f1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8226cb1daefa497c6a4150f5212cb1ff.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8745a61f00367f5e49c8fadf6e5b5451.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/881b0ddacfabe4ae33c173f46493628a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/88d642fdb9f5c8f38721b2b78b566216.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8903f602254866dce43592fb966efa8e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/892311ec5ba79dac5a1c5aef4e1d5b89.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8aaf7fd96fbb3be394cf0dd2e2fcb374.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8b149b11333f71d168455b99ea42a9c6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8c9ec0739738eaefe1fa1f6f0d135905.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8d05cfaa11733f181d33726a3c250344.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8de15879d5587b2e022630134a6f0926.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8e303750afb6f9de87347cf09eecc00b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8e449d7c3222d8d5a0ec87e86aa42922.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8ed5fe5f85e2a9c866b34ae7a698a37e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8fdcba9b3646144b9dec43e8371dd37e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/933697416d09dec73a46b4d075f069fd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/94104d0c42292458277d1d217ef91127.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9519d80a48fe19c37510b991877e842b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/954b696e2fcfd586ed5185d7c445e5b4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/95ace998fd4dc83484b88e3ab4951447.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/95ed5d9a72f6076a8fa93d0f1708ae43.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/968df3b640a840440fc30fd7522d8909.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/975a9d512b0b033182474c511233ee61.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9983d041f8c2859fe707c7a34cd2ae5b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9b5487638666b6debb5d38d1e59d115a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9bb5a2d35b7a7dca85716be348fe7d33.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9efe7b228e1e46bdd46bf6c91d393032.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9f212ea2e2152babd1f8b3e7cd3348d7.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a051f7224eb3a964ac04863efc301022.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a0a6670c48c53f9661020f5dbbb22efb.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a0f268f6f38b89bc7b55dbfd43e04a40.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a472bcbc73a45d5715a5df1bb9254ad4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a524e97647031c75d18169d48570d079.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a6e68c6b957366109bb4a2e31a86cb50.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a777acbc47bba27c82f32fed30a1977e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a7fc9f057c76a7151d9c86b1cbf90880.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a9c011eea29a34efc087004493e0f184.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ab91a27af11e7820ec23891b312c9537.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ac38e087ad82ddfe625ed3c02da54236.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/acec04050086bed11ca212d103337037.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ae8da839e06837500a00f32f1ca3c09c.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b11abaf5552ba1b754b1e074938c1423.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b19fefaa9e5c9c40bfbb2ea773ccf877.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b21696644cd20b5ad22ea52b55098987.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b2d6e1545af00761e700522f21bca989.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b384aab471f9d4a9f3d9014a3fd49a73.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b5370ff233a7e94e9b71bebd524bfb38.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b8e3e813649e36bcbbcebf640430615a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b9330543e95317b7467ab60e3f90cbfc.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ba08bcd280d6ec7fb7b012f157ae226a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bbf6832a2542f0820c2fc322ca9ad098.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bcca9dd978d8087f941ad86ad406f5aa.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/be16b6333c0859fcf8397ef6affb2da4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bec93621f221e59ab5e08a095732ad42.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bef6214494d80c2137a4cbade468a637.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c117a1ce4c3f8a98507aaa206fe676f0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c1fad56465a0ad789a309e54de9a6efd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c5905b2888e5c5f9b86cd1f0595ba806.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c7afe170892eee99508939008f818916.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c9393828ef687a996e712084151d9c0a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c9990863a14d323c8690acede0b23522.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cbb0dd0906a08278df25bd05e1a4a72f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cce28c525dab9f493ca89059c89417c4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cd4e8fa517b29991bce06de44d2c9a73.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ced7c0fc28a8e7b5759c4d5c46d25178.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cedc22d617b4b0af8fc4749782ed98a2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cf2acefdc3049cef816cc89b124f32e0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cf3011e32cbdfc9851694fa48e18f356.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cf9e6c8e0e37d54f6ef56a022a717ac1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d09c576c1307070548b1b7d5ebaa21c3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d0cc899fd7f44125ebc44f5315d90b25.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d0e838bf54ec6f7c282d66b34b4971d4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d1b368346ceabe46886685b458b354f5.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d4334c9abc9260bb571aea5a8be147f7.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d618125c9c7b893416298f8690f4d8e1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d69daf903687e35e95a720cf6c2560a5.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d8245a5254ad52c62289b0f03a96e36f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d832d840c2b5641fd7c427893ef6b773.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d8b400feff00259cc15816ead631fe19.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/da7ac7936a1b7feeae77328e62e9004c.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ddf41c3e1ef2e7eef4285fd684a5c90f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/de06a45fe103b8059534f027c7b7f472.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e1b63ad4cb28f490ec1351d663d1ee87.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e31634aec6b7e83f3f4e4f3c23364b0d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e40a6402034276652dbe6e3ae733b0bb.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e666d28f4f48b24423da0bb8837c26de.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e6d9b6bc6da6fa56c835004929e9aad6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e7e4c546a622f4d370052d9f41386168.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ea4f8de8119bc1493d7bea38ffead37b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ed7988ae3952cb73bc43e88e94cfcb76.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/eeb360f96a5dd76976e9d9a2c9d032a2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/eecba730e2d73d4e0c28b7c55ec3b29e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ef4873d430e02f7fbfcd61eccc3815e2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f32b774707eb91bb8d85306052097445.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f4bd562f40946859adabfb841d1141d6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f5410fb38b81e381d0987ec1cc77cf95.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f716206ed7026cbbd28d5b945e087541.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f8528f352687dcbaf58ce039c5376055.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fa1acf472c5536d1eef1ad4ed8c667f0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fddd69368608fc2b32d0e4a5f4ed3e2a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/030f78152cfd94c4178802a355976ae2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/04d00d08bf5911acedb391a93c8a5f37.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/04e79a2415a0dafd84d380e2eae89b0c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/070a7d34dff410af93c5812c531ae5bf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/11210b234cc5b843b88477336bec8500.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/192cb4b3785100c27796a00aea5aba89.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1a2f403fd962fedf33a62d5bedce028b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1bfc2eccd9344c9fe9e4d26abb75c1d3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1c069a59123bc2748cd2f0a9b2fd1006.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1d912449627934f8fa6feed5ede07967.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1f90d3346f4e525a68c33438198a7869.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/1fd48946ca95bf3c502a821c557054fb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2110dbe2ad4a971fd5896524943046fb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/232d6cc899b2eccf5faf5bbded225e7c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/238f1dd0dab909293f5425e280ad6dee.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/280962dd9ba4da12085929ee3f6f5728.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/28b5ba984bf04547d1dfecaa3b840ccc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/28ef6695b01e0bb42ce121b63ec5d978.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/28f59aeb57f9bc1723fccf13e1b06035.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2d216a7a02e82a30de761fa6f44d26ba.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/2f57ac53111f3f76fe16b591e90f0022.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3659d4fb93389cda34ad26ab71364023.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3948811948d84a141cebf783fa404e7f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3a113883fe35d684af8394e5e873e2cc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3b572bbda9428adc28452d13012c7781.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3c1915e69451733d356af52ea82d3e24.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3ec2adfb9db66be184b111ee6b7b9106.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/3f0879cdda9759e43cd306d2694b1804.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/41865ff0926c780dd3a841aac9aeb1cc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/41b2ee4dd188d47efe1bab34a0b8123a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/41cfd52d649cfa715b39aafbf24d815b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/42cdf497cc51c85d9f8cd474264bf6a4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/45e18f363f8b92e814a75945f6273be4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4668e219f37519fbf402d3e5071e0748.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/479dd25babed176b248b3ccdb16a1ba0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4b487298cb0bc4ab5fd79482476e62b0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/4c82a4b8ab0f2b94e4d3d38cf6bfd300.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/51b56fc26ac122e3d4b155cb3f7fda27.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/51b86a913dd5c918bfda0b48418cc4e7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/525b6de74869902a28e6729e789ce388.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/57826053beee89b61094f9d361f7ac49.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/578fae1e1353aafeb6e9df7f47a30d36.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/58d1610586ad8b5eeb01c384967c927d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5951d8e1f4ac0051ca8107dbf8abda97.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/59ec969278cc90e35881acbff327925e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5baee8bfa83f3953c857f30c736e41e9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5db4ed4eb566e3e9eb9fee45f0caadf2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/5eb2cfc05c9ec214717dbe3346f15fb3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/60ba54cce697ba3d457eaa6467ff6ee4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/61d76fb3e4a4e51a969494fd78034a2c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6262ae576d8b947740ae60caa37dce65.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/62adcf956a6e5cfc63bdda2f3ae3528e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/648c0c04f13643022a55b0c69a82ae0d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/65b3c7399d6b95fbdd91a81edc066e96.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/66df9beda1279064c6b41666cf4f3d20.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/682f76cb106d84f0929b4cb6da620daa.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/68617a896ade7748da439e6aabb85403.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/689232c1e57f5e13febbc3358a648a58.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/69f9d8d86789a26925e43ed87f2b0aa5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6b3e2fea7febd22bfa81e7dfceafaffa.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6c40d90e32f38d220149083076c92afa.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6c7c4c4cf6f8b451c0e49254d77720aa.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/6d795846942662a24324f390dcb7f52e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7032cd2ade009a30e5649f7c876cd07a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/721cef6a83924a214713666b12120bba.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/725d5c5e5ce35798e453049713aef8e4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/73caaa23220870a14988644c717d8749.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/764e4a3cf9e00367663e7546ad142baf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7bebbf824cfe0a0e7ecabc16f997bc67.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7bfa36f3190ebf19e34dd91630b86b71.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7e3a10fc7db9d3035dc9c044bbcf09ad.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7e3ba769ed63144def0382724d364f04.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/7ffe076ca117db79c00df3d03ec5a937.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8080904837503724769376e90479c116.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/80f131a3375510d1788b59c73e8cdd46.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8321c4592d8472b6eb8c432e37c44144.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/84a069b3b5ec431f8686e9a9269164c6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/852c561c3514e60c17256542f094b47d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8590c234f75d3135b4b27ed21f8a5e4a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/886cf60e38d49f7ed35f4b44d5d15467.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8889989ff520a0a6df37e7d7f8b46ef0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/89d782d4b8b69788c73b9faa78bb42b4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8ceadc54d400dab0b7620f416ba67e4d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8eba13fefea74b8854ad377c4953992d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8ed8be51186c03ab28cb35aed4fdbd44.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/8ffefbe046a3ddbdc7613ce6bf0d8337.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/938054b5280373c72216422ca2088af7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/94c2e7c2804525d8f5fff10244404dfb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/94cd4d4ad29d80f904e7cff05a11d06b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9846632ef9a4145cc21955a4698e3a41.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/98c0d061d5af3d6c0d62d5ebff09360d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9aebc865a4076e9f14ab2035e556fcc6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9b37ca5b3a01b443501f7ba2a48c6f49.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9be3f612f9e803743fe0445f2e37d9c9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9dd4f7cf96e6c2c7068b1ca8297ca5f6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/9f4669b0335c32ea902db8783a544bd3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a3a3044cf5bea15b859194a82fa8759c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/a99df6ce98a54e0b4228ae0ba8b68c76.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/aa09687e72fb7c3cb030e6d45fe0f3f1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/aa7eac3f261b654053cfcfd78d83d97e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ac13fa8133925556254a4f0b56e80fec.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/acbca4adfb7d344d1cafecd453a44fa3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b0006744e4c5d37af95ca765656b66f1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b2e878505ddc45f45994240ec02abe1b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b303f0d4757c8463195e341d3a9eebcf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b6e21bcd07e5bb2f657bb3bc651968de.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/b78a8b9b2f49d225abffe85541e3c482.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/baa2b401299de538473123bd2ae45979.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/bb3c63f4e28f2b058996586da5cc891b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c088d0011db1b314b95849e6fdf12de9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c12148df6eef51d0a52b373722336f0d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/c738672af72f0ef95352f3b2c3cea4f6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ca127fdc2e8de6fddf00df0740922c2f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ccd12572a98aaf8c59fcf3a1dc286bef.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/cdeb341d4af0f48eec65a0fe8b43365f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d0e5e283ff3bc07c018a1b913e72de52.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d11b63f21b78f1d0aa472541995cbe8b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d457e4d1ca0255f72ce431e81e988893.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d51acab23ebbb2428f751c1443fd9be9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/d7a2d2b7bb6f49bb8363dd349ef7c180.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ddd544d748ce3ef49bb5190e9eca01e6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/de120e239b96b8de22d8341c3ea95966.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e04772d7fd48179185d16f8df063ca9c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e0e5fa557c76e1d01d9681c762f708f5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e326b7345430eaafdc1cf61c44283ce6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e46c3195718eaa43a2d02919e3c6b98d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e6e782e285d944ce2ef07a45fca5e0ac.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e7efc472f22aed4a596c93d27ba6de93.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/e9265caddc5df977d72460ff4d7082af.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ea19b5f301ca858f03faedba81723c49.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/ecd04a0b796ddc7b3d2bff563fd1abb4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/eea945249323611d40288e46d6591bfc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f07de5e67ab056eced9ce2a2e4bbcad5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f24dfb961100a29909d12e08e7666949.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f2f242edf532eb7de3c6c8898aab202c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f3947e4ce9470ecaabe85e70fcfc1f36.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f3c0ccdce0fd2a373b2e26fd2ee64e14.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f584502230b61232ba7f544104467af4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f81e144736557acb6d7c521991cc4784.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/f91e93a12c916219314e6b35b77f15d0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fb6aae834c5fc1124320afef835c8216.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fb7b4043817cd3fa834e0eb8c0949b58.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fcb460aa2fa5f0354d97280b8b27010a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fd7418bca73ee3a36bd3f2f937b3fe90.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fdc74c206074927b7524fcc723dd81ca.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/.umi/.cache/babel-loader/fea23024c6ac7d486fcec3b3f0568033.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentForm/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Aside/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Aside/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Header/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Header/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Layout/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Pager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Pager/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Login/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Login/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/student/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/student/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/student/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/student/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/student/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/student/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/services/getStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/services/getStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +195,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="10-2.布局和菜单" />
+        <entry key="$PROJECT_DIR$" value="10-3.表格和分页" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -277,6 +212,7 @@
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Header/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/StudentSearchBar/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Modal/index.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/umi-learn/src/components/StudentForm/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Header/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/umi-learn/src/components/Aside/index.js" root0="SKIP_INSPECTION" />
   </component>
@@ -362,7 +298,8 @@
       <workItem from="1606528193837" duration="1926000" />
       <workItem from="1606530140833" duration="756000" />
       <workItem from="1606536703085" duration="12291000" />
-      <workItem from="1606562618175" duration="7675000" />
+      <workItem from="1606562618175" duration="9844000" />
+      <workItem from="1606614084619" duration="12797000" />
     </task>
     <task id="LOCAL-00001" summary="umijs简介">
       <created>1606360616758</created>
@@ -441,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606553943185</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="表格和分页">
+      <created>1606573375095</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606573375095</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +415,8 @@
     <MESSAGE value="umi脚手架" />
     <MESSAGE value="antd通用组件" />
     <MESSAGE value="布局和菜单" />
-    <option name="LAST_COMMIT_MESSAGE" value="布局和菜单" />
+    <MESSAGE value="表格和分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="表格和分页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="173" key="#Configure_Path_Variables" timestamp="1606437856299">
@@ -502,10 +447,10 @@
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state x="421" y="127" key="FileChooserDialogImpl/0.23.1280.697@0.23.1280.697" timestamp="1606545871529" />
-    <state width="548" height="697" key="Git.Branch.Popup" timestamp="1606566807271">
+    <state width="550" height="697" key="Git.Branch.Popup" timestamp="1606573382998">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
-    <state width="548" height="697" key="Git.Branch.Popup/0.23.1280.697@0.23.1280.697" timestamp="1606566807271" />
+    <state width="550" height="697" key="Git.Branch.Popup/0.23.1280.697@0.23.1280.697" timestamp="1606573382998" />
     <state width="1258" height="160" key="GridCell.Tab.0.bottom" timestamp="1606547081650">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
@@ -526,10 +471,10 @@
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state x="150" y="22" key="SettingsEditor/0.23.1280.697@0.23.1280.697" timestamp="1606545977971" />
-    <state x="233" y="86" key="Vcs.Push.Dialog.v2" timestamp="1606553950074">
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2" timestamp="1606573379663">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
-    <state x="233" y="86" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1606553950074" />
+    <state x="233" y="86" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1606573379663" />
     <state x="442" y="23" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606367535341">
       <screen x="0" y="23" width="1280" height="697" />
     </state>

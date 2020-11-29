@@ -1,3 +1,4 @@
+import qs from 'querystring';
 const appkey = `1_JavaScript_1564315783200`;
 export async function getAllStudent() {
     return await fetch(`/api/student/findAll?appkey=${appkey}`)
@@ -26,3 +27,21 @@ export async function getStudentBySearch({key = '',sex=-1,page=1,limit=10}={}){
     }
 
 }
+
+export async function addStudentBySearch(stuObj) {
+    const stuStr = qs.stringify(stuObj);
+    return await fetch(`/api/student/addStudent?appkey=${appkey}&${stuStr}`)
+        .then(res=>res.json());
+}
+
+export async function updateStudentBySearch(stuObj) {
+    const stuStr = qs.stringify(stuObj);
+    return await fetch(`/api/student/updateStudent?appkey=${appkey}&${stuStr}`)
+        .then(res=>res.json());
+}
+
+export async function getStudentBysNo(sNo) {
+    const stus = await getAllStudent();
+    return stus.find(s=>s.sNo === sNo);
+}
+

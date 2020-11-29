@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'dva';
 import {Pagination, Table} from 'antd';
 
-function StudentTable({stus}) {
+function StudentTable({stus,loading}) {
     const columns = [
         {
             title: '学号',
@@ -31,12 +31,13 @@ function StudentTable({stus}) {
         },
     ];
     return (
-        <Table bordered dataSource={stus} columns={columns} pagination={false}/>
+        <Table size="small" loading={loading} bordered dataSource={stus} columns={columns} pagination={false}/>
     );
 }
 
 const mapStateToProps = state => ({
-    stus: state.students.result.datas
+    stus: state.students.result.datas,
+    loading: state.loading.effects["students/fetchStudents"]
 });
 
 export default connect(mapStateToProps, null)(StudentTable);

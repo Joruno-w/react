@@ -1,8 +1,8 @@
 import React from 'react';
-
+import StudentForm from "../../components/StudentForm";
 function Add(props) {
     return (
-        <h1>添加学生</h1>
+        <StudentForm/>
     );
 }
 
