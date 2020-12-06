@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e839b911-5df0-4867-b510-61f9455d412a" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/devScripts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/devScripts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/history.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/history.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/plugin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginConfig.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginConfig.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginRegister.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/pluginRegister.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/polyfill.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/polyfill.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/core/umiExports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/core/umiExports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/connect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/connect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/dva.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/dva.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/exports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/exports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/runtime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-dva/runtime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-helmet/exports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-helmet/exports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/Provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/Provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/exports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/exports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/runtime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-initial-state/runtime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/Provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/Provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/runtime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/runtime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/useModel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-model/useModel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-request/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/plugin-request/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/.umi/umi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/.umi/umi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/assets/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/assets/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Aside/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Aside/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/StudentForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/student/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/student/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/pages/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/pages/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi-learn/src/services/getStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi-learn/src/services/getStudent.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="10-5.图片上传" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/umi-learn/src/pages/upload.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/umi-learn/src/components/StudentTable/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/umi-learn/src/services/getStudent.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1kxqaUjj2eeuYppif0WeT6zIgvp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17106\Desktop\react\umi-learn\src\pages\student" />
+      <recent name="C:\Users\17106\Desktop\react\umi-learn\src\pages\student\delete" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e839b911-5df0-4867-b510-61f9455d412a" name="默认的" comment="" />
+      <created>1606652656504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606652656504</updated>
+      <workItem from="1606652657872" duration="4129000" />
+      <workItem from="1606728022382" duration="690000" />
+      <workItem from="1606733789017" duration="279000" />
+      <workItem from="1606811717034" duration="3712000" />
+      <workItem from="1606818849115" duration="1703000" />
+      <workItem from="1606825175773" duration="1246000" />
+      <workItem from="1607165361098" duration="1276000" />
+      <workItem from="1607225320234" duration="750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
