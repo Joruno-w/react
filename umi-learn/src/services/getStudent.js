@@ -40,8 +40,13 @@ export async function updateStudentBySearch(stuObj) {
         .then(res=>res.json());
 }
 
-export async function getStudentBysNo(sNo) {
-    const stus = await getAllStudent();
-    return stus.find(s=>s.sNo === sNo);
+export async function getStudentBysNo(sNo){
+    const resp = await getAllStudent();
+    return resp.find(s=>s.sNo === sNo);
+}
+
+export async function delStudentBysNo(sNo) {
+    return await fetch(`/api/student/delBySno?appkey=${appkey}&sNo=${sNo}`)
+        .then(res=>res.json());
 }
 

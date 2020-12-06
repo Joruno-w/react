@@ -10,12 +10,12 @@ function Login(props) {
             <div className={styles.form}>
                 <div>
                     <label>
-                        账号: <input type="text" ref={loginIdRef} className={styles.login}/>
+                        账号: <input type="text" className={styles.login} ref={loginIdRef}/>
                     </label>
                 </div>
                 <div>
                     <label>
-                        密码: <input type="password" ref={loginPwdRef} className={styles.login}/>
+                        密码: <input type="password" className={styles.login} ref={loginPwdRef}/>
                     </label>
                 </div>
                 <button className={styles.loginBtn} onClick={()=>{
@@ -28,6 +28,8 @@ function Login(props) {
         </div>
     );
 }
+
+
 
 const mapDispatchToProps = dispatch=>({
     onLogin(loginId,loginPwd){

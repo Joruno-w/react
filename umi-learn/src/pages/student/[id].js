@@ -3,7 +3,7 @@ import StudentForm from "../../components/StudentForm";
 
 function Id({match}){
     return(
-        <StudentForm sNo={match.params.id}/>
+        <StudentForm sNo={match.params.id} />
     )
 }
 

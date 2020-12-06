@@ -6,7 +6,7 @@ function Upload(props) {
     return (
         <Avatar imgUrl={imgUrl} onChange={newUrl=>{
             setImgUrl(newUrl);
-        }} />
+        }}/>
     );
 }
 

@@ -1,33 +1,57 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {connect} from 'dva';
-import {Pagination, Table} from 'antd';
+import {message, Pagination, Table, Spin} from 'antd';
+import {withRouter} from 'umi';
+import {delStudentBysNo} from "../../services/getStudent";
 
-function StudentTable({stus,loading}) {
+
+function StudentTable({stus, loading}) {
+    async function deleteStudent(record) {
+        const result = await delStudentBysNo(record.sNo);
+        if (result.status === "success") {
+            await message.success("删除学生成功!", 1);
+            history.go(0);
+        } else {
+            await message.error("删除学生失败!", 2);
+        }
+    }
+
     const columns = [
         {
             title: '学号',
             dataIndex: 'sNo',
+            align: "center"
         },
         {
             title: '姓名',
             dataIndex: 'name',
+            align: "center"
         },
         {
             title: '出生日期',
             dataIndex: 'birth',
+            align: "center"
         },
         {
             title: '电话',
             dataIndex: 'phone',
+            align: "center"
         },
         {
             title: '邮箱',
             dataIndex: 'email',
+            align: "center"
         },
         {
             title: '操作',
             dataIndex: 'operation',
-            render: (txt, record) => <a href={`/student/${record.sNo}`}>详情</a>
+            align: "center",
+            render: (txt, record) => (
+                <>
+                    <a href={`/student/${record.sNo}`} style={{marginRight: 5}}>修改</a>
+                    <a href="javascript:void 0;" onClick={()=>deleteStudent(record)}>删除</a>
+                </>
+            )
         },
     ];
     return (

@@ -52,7 +52,6 @@ function Aside({location}) {
         }
     }
     return (
-        <>
             <Menu
                 mode="inline"
                 defaultSelectedKeys={[location.pathname]}
@@ -61,7 +60,6 @@ function Aside({location}) {
             >
                 {menus}
             </Menu>
-        </>
     );
 }
 

@@ -47,6 +47,7 @@ function StudentForm(props) {
     }
     function onFinish(){
         let formObj = form.getFieldsValue();
+        console.log(formObj);
         if (props.sNo){ //修改学生
             update(formObj);
         }else { //添加学生
@@ -118,11 +119,12 @@ function StudentForm(props) {
                     <Input />
                 </Form.Item>
                 <Form.Item wrapperCol={{offset: 4,span: 8}}>
-                    <Button type="primary" htmlType="submit" block>提交</Button>
+                    <Button type="primary" htmlType="submit" block>{props.sNo ? "修改":"提交"}</Button>
                 </Form.Item>
             </Form>
         </Spin>
     );
 }
+
 
 export default withRouter(StudentForm);
